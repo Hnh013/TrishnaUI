@@ -1,0 +1,41 @@
+@import url('../shared/common.css');
+
+.d-flex {
+    display: flex;
+}
+.fd-row {
+    flex-direction: row;
+}
+.fd-col {
+    flex-direction: column;
+}
+.jc-sa {
+    justify-content: space-around;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.jc-fs {
+    justify-content: flex-start;
+}
+.jc-fe {
+    justify-content: flex-end;
+}
+.jc-c {
+    justify-content: center;
+}
+.jc-se {
+    justify-content: space-evenly;
+}
+.ai-c {
+    align-items: center;
+}
+.ac-c {
+    align-content: center;
+}
+.ac-c {
+    align-content: space-around;
+}
+.fw-wrap {
+    flex-wrap: wrap;
+}

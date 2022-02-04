@@ -1,0 +1,198 @@
+/**********************************************************************************************************/
+/***************************************************** MARGINS ********************************************/
+
+.ml-auto {
+    margin-left: auto;
+}
+.mr-auto {
+    margin-right: auto;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.mx-25 {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.mx-50 {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+.mb-auto {
+    margin-bottom: auto;
+}
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.my-25 {
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+.my-50 {
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+/**********************************************************************************************************/
+/*********************************************************************************************************/
+
+/*********************************************************************************************************/
+/********************************************** PADDINGS ************************************************/
+
+.pl-xs {
+    padding-left: 0.5rem;
+}
+.pl-sm {
+    padding-left: 1rem;
+}
+.pl-md {
+    padding-left: 1.5rem;
+}
+.pl-lg {
+    padding-left: 2rem;
+}
+.pl-xl {
+    padding-left: 2.5rem;
+}
+.pl-xxl {
+    padding-left: 4rem;
+}
+
+.pr-xs {
+    padding-right: 0.5rem;
+}
+.pr-sm {
+    padding-right: 1rem;
+}
+.pr-md {
+    padding-right: 1.5rem;
+}
+.pr-lg {
+    padding-right: 2rem;
+}
+.pr-xl {
+    padding-right: 2.5rem;
+}
+.pr-xxl {
+    padding-right: 4rem;
+}
+
+.px-xs {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.px-sm {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.px-md {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.px-lg {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.px-xl {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.px-xxl {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.pt-xs {
+    padding-top: 0.5rem;
+}
+.pt-sm {
+    padding-top: 1rem;
+}
+.pt-md {
+    padding-top: 1.5rem;
+}
+.pt-lg {
+    padding-top: 2rem;
+}
+.pt-xl {
+    padding-top: 2.5rem;
+}
+.pt-xxl {
+    padding-top: 4rem;
+}
+
+.pb-xs {
+    padding-bottom: 0.5rem;
+}
+.pb-sm {
+    padding-bottom: 1rem;
+}
+.pb-md {
+    padding-bottom: 1.5rem;
+}
+.pb-lg {
+    padding-bottom: 2rem;
+}
+.pb-xl {
+    padding-bottom: 2.5rem;
+}
+.pb-xxl {
+    padding-bottom: 4rem;
+}
+
+.py-xs {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.py-sm {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.py-md {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.py-lg {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.py-xl {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.py-xxl {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+
+/***********************************************************************************************************/
+/*********************************************** Border Radius *********************************************/
+
+.bdr-rad-sm {
+    border-radius: 0.25rem;
+}
+  
+.bdr-rad-md {
+    border-radius: 0.5rem;
+}
+  
+.bdr-rad-lg {
+    border-radius: 1rem;
+}
+  
+.bdr-rad-f {
+    border-radius: 64rem;
+}
+
+/***********************************************************************************************************/
+/***********************************************************************************************************/
+
+  
