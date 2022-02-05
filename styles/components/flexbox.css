@@ -30,6 +30,9 @@
 .ai-c {
     align-items: center;
 }
+.ai-fs {
+    align-items: flex-start;
+}
 .ac-c {
     align-content: center;
 }

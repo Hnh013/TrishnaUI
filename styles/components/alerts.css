@@ -1,0 +1,53 @@
+@import url('../shared/common.css');
+@import url('../components/flexbox.css');
+@import url('../components/navbars.css');
+
+/********************************************* Alerts  *************************************************************/
+
+.alert {
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.alert-fire {
+    background-color: var(--fire-lite);
+    color: var(--fire-dark);
+}
+
+.alert-bee {
+    background-color: var(--bee-lite);
+    color: var(--over);
+}
+
+.alert-sun {
+    background-color: var(--sun);
+    color: var(--over);
+}
+
+.alert-eco {
+    background-color: var(--eco-lite);
+    color: var(--eco-dark);
+}
+
+.alert-cool {
+    background-color: var(--cool);
+    color: var(--smoke);
+}
+
+.alert-metal {
+    background-color: var(--metal);
+    color: var(--smoke);
+}
+
+.alert-over {
+    background-color: var(--over);
+    color: var(--smoke);
+}
+
+.alert-rainy {
+    background-color: var(--rainy);
+    color: var(--metal-dark);
+}
+
+/*******************************************************************************************************************/

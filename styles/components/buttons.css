@@ -1,0 +1,56 @@
+@import url('../shared/common.css');
+@import url('../components/flexbox.css');
+@import url('../components/navbars.css');
+
+/********************************************** Buttons ******************************************/
+
+.btn {
+    outline: none;
+    display: flex;
+    align-items: center;
+    border-style: outset;
+    border-width: 0.125rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn:active {
+    border-style: inset;
+}
+
+.btn-link {
+    text-decoration-line: underline;
+}
+
+/******************************************* Buttons Theme Classes ********************************************/
+
+.btn-fire { background-color: var(--fire); color: var(--smoke); border-color: var(--fire); }
+.btn-eco { background-color: var(--eco); color: var(--smoke); border-color: var(--eco); }
+.btn-bee { background-color: var(--bee); color: var(--over); border-color: var(--bee); }
+.btn-cool { background-color: var(--cool); color: var(--smoke); border-color: var(--cool); }
+.btn-calm { background-color: var(--calm); color: var(--smoke); border-color: var(--calm); }
+.btn-metal { background-color: var(--metal); color: var(--smoke); border-color: var(--metal); }
+.btn-sun { background-color: var(--sun); color: var(--over); border-color: var(--sun); }
+.btn-over { background-color: var(--over); color: var(--smoke); border-color: var(--over); }
+.btn-rainy { background-color: var(--rainy); color: var(--metal-dark); border-color: var(--rainy); }
+
+/********************************************** Floating Action Buttons ******************************************/
+
+.btn-fab {
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    min-height: fit-content;
+    min-width: min-content;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.btn-fab:hover, .btn-fab:focus {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+
+/*******************************************************************************************************************/
