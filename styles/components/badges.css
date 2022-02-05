@@ -1,0 +1,227 @@
+@import url('../shared/common.css');
+@import url('../components/flexbox.css');
+@import url('../components/navbars.css');
+@import url('../components/avatars.css');
+
+:root {
+    --brdr-sd : solid;
+    --brdr-rad-50: 50%;
+    --f-wgt-700: 700;
+}
+
+/* Badge Wrapper Class */
+.badge-wrapper {
+    position: relative;
+}
+
+/* Basic Badge Class */
+.badge {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+}
+
+/* Badge Classes for Different Sizes*/
+
+.badge-xs {
+    height: 0.5rem;
+    width: 0.5rem;
+}
+  
+.badge-sm {
+    height: 0.75rem;
+    width: 0.75rem;
+}
+  
+.badge-nm {
+    height: 1rem;
+    width: 1rem;
+}
+  
+.badge-md {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+  
+.badge-lg {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.badge-xl {
+    height: 2rem;
+    width: 2rem;
+}
+
+/* Blip Badge Base Class */
+.blip {
+    border-radius: var(--brdr-rad-50);
+}
+
+/* Blip Badges COlor Classes */
+.blip-eco {    background-color: var(--eco);    }
+.blip-bee {    background-color: var(--bee);    }
+.blip-sun {    background-color: var(--sun);    }
+.blip-fire {    background-color: var(--fire);    }
+.blip-calm {    background-color: var(--calm);    }
+.blip-cool {    background-color: var(--cool);    }
+.blip-over {    background-color: var(--over);    }
+.blip-rainy {    background-color: var(--rainy);    }
+.blip-yogurt {    background-color: var(--yogurt);    }
+
+/* Blip Badges */
+.num-blip {
+    border-radius: var(--brdr-rad-50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: var(--f-wgt-700);
+    border-style: var(--brdr-sd);
+}
+
+/* Blip Badges With Different Sizes */
+
+.num-blip-xs {
+   font-size: 0.25rem;
+   border-width: 0.01rem;
+   top: 3.75%;
+   right: 3.75%;
+}
+
+.num-blip-sm {
+    font-size: 0.375rem;
+    border-width: 0.05rem;
+    top: 2.5%;
+    right: 2.5%;
+}
+ 
+.num-blip-nm {
+    font-size: 0.75rem;
+    border-width: 0.1rem;
+    top: 1.25%;
+    right: 1.25%;
+}
+
+.num-blip-md {
+    font-size: 0.9375rem;
+    border-width: 0.15rem;
+    top: 0%;
+    right: 0%;
+}
+ 
+.num-blip-lg {
+    font-size: 1.125rem;
+    border-width: 0.2rem;
+    top: -1.25%;
+    right: -1.25%;
+}
+
+.num-blip-xl {
+    font-size: 1.5rem;
+    border-width: 0.25rem;
+    top: -2.5%;
+    right: -2.5%;
+}
+
+/* Blip Badges Color Classes */
+.num-blip-eco {    background-color: var(--eco);   color: var(--smoke); }
+.num-blip-bee {    background-color: var(--bee);    }
+.num-blip-sun {    background-color: var(--sun);    }
+.num-blip-fire {    background-color: var(--fire);  color: var(--smoke);  }
+.num-blip-calm {    background-color: var(--calm);  color: var(--smoke);  }
+.num-blip-cool {    background-color: var(--cool);  color: var(--smoke);  }
+.num-blip-over {    background-color: var(--over);  color: var(--smoke);  }
+.num-blip-rainy {    background-color: var(--rainy);    }
+.num-blip-yogurt {    background-color: var(--yogurt);    }
+
+/* Ring Badge Base Class */
+.ring {
+    background-color: var(--glass);
+    border-radius: var(--brdr-rad-50);
+}
+
+/* Ring Badges With Different Sizes */
+
+.ring-xl {
+    height: 1rem;
+    width: 1rem;
+    border-style: var(--brdr-sd);
+    border-width: 0.5rem;
+}
+
+.ring-lg {
+    height: 0.75rem;
+    width: 0.75rem;
+    border-style: var(--brdr-sd);
+    border-width: 0.375rem;
+}
+
+.ring-md {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-style: var(--brdr-sd);
+    border-width: 0.375rem;
+}
+
+.ring-nm {
+    height: 0.4325rem;
+    width: 0.4325rem;
+    border-style: var(--brdr-sd);
+    border-width: 0.27625rem;
+}
+
+/* Ring Badges With Effects */
+
+.ring-ef-gr {
+    border-style: groove;
+}
+
+.ring-ef-gr:hover {
+    border-style: ridge;
+}
+
+.ring-ef-io {
+    border-style: outset;
+}
+
+.ring-ef-io:hover {
+    border-style: inset;
+}
+
+/* Ring Badge Color Classes */
+
+.ring-eco {    border-color: var(--eco);    }
+.ring-bee {    border-color: var(--bee);    }
+.ring-sun {    border-color: var(--sun);    }
+.ring-fire {    border-color: var(--fire);    }
+.ring-calm {    border-color: var(--calm);    }
+.ring-cool {    border-color: var(--cool);    }
+.ring-over {    border-color: var(--over);    }
+.ring-rainy {    border-color: var(--rainy);    }
+.ring-yogurt {    border-color: var(--yogurt);    }
+
+
+/* Moon Badge Base Class */
+.moon {
+    border-radius: var(--brdr-rad-50);
+    transform: rotate(22.5deg);
+}
+
+/* Moon Badges with Different Sizes */
+
+.moon-nm {    box-shadow: -0.25rem 0.125rem 0 0 var(--sun);    }
+
+.moon-lg {    box-shadow: -0.375rem 0.1875rem 0 0 var(--sun);    }
+
+.moon-md {    box-shadow: -0.3125rem 0.15625rem 0 0 var(--sun);    }
+
+.moon-xl {    box-shadow: -0.5rem 0.25rem 0 0 var(--sun);    }
+
+/* Mobile Badge */
+.mobile {
+    background-color: var(--glass);
+    height: 2rem;
+    width: 1.5rem;
+    border-radius: 0.125rem;
+    box-shadow: inset 0 -0.0625rem 0.0625rem 0.3125rem var(--eco);
+}

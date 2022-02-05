@@ -1,5 +1,5 @@
-@import url('./flexbox.css');
-@import url('./navbars.css');
+@import url('../components/flexbox.css');
+@import url('../components/navbars.css');
 @import url('../shared/common.css');
 
 /******************************************************************************************/
