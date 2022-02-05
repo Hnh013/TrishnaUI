@@ -34,6 +34,26 @@
     width: 33.33%;
 }
 
+.w-25 {
+    width: 25%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
 .rot-c-45 {
     transform: rotate(45deg);
 }
