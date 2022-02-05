@@ -1,0 +1,30 @@
+/****************** Font Family (Customizable) ***************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+body {
+    font-family: var(--custom-text,'Open Sans', sans-serif);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--custom-hdng,'Merriweather', serif);
+}
+
+/******************************************************************/
+
+/******************** Fonts Sizing Styles *************************/
+
+.f-2x {
+    font-size: 2rem !important;
+}
+
+.f-3x {
+    font-size: 3rem !important;
+}
+
+.f-4x {
+    font-size: 4rem !important;
+}
+
+/*****************************************************************/

@@ -1,0 +1,26 @@
+/******************************** Resetting Default Styles ************************************************/
+
+body, h1, h2, h3, h4, h5, p, figure, blockquote, dl, dd {
+    margin: 0;
+}
+  
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+input, button, textarea, select, a, a:active, a:focus {
+  font: inherit;
+  color: inherit;
+}
+
+a, a:active, a:focus{
+    text-decoration: none;
+}
+  
+img, picture {
+    max-width: 100%;
+    display: block;
+}
+
+/*************************************************************************************************************/

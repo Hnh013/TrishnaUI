@@ -1,0 +1,30 @@
+@import url('./flexbox.css');
+@import url('./navbars.css');
+@import url('../shared/common.css');
+
+/******************************************************************************************/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all ease-in-out 0.3s;
+    height: auto;
+    width: auto;
+    width: min(80%,22.5rem);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.custom-badge {
+    left: -1.25%;
+    top: 5%;
+    height: 2rem;
+    width: 6rem;
+    background-color: var(--metal);
+    color: var(--smoke);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+/******************************************************************************************/

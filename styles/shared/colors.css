@@ -1,0 +1,27 @@
+/******************** Colors *************************/
+
+:root {
+    --eco: #72c15d;
+    --eco-dark: #2e8020;
+    --eco-lite: #99e981;
+    --eco-glow: #009109;
+    --bee: #FFD428;
+    --bee-lite: #FFC958;
+    --sun: #F5A623;
+    --fire-lite: #FFC3FF;
+    --fire-dark: #650000;
+    --fire: #da4154;
+    --calm: #26ade4;
+    --calm-glow: #0089FF;
+    --cool: #368abb;
+    --over: #44433d;
+    --rainy: #CCCCCC;
+    --yogurt: #efafb5;
+    --dark: #4D4637;
+    --metal: #6C63FF;
+    --metal-dark: #56546e;
+    --smoke: #EEE;
+    --glass: transparent;
+}
+
+/*****************************************************/
