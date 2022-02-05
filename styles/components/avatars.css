@@ -1,0 +1,54 @@
+@import url('../shared/common.css');
+@import url('../components/flexbox.css');
+@import url('../components/navbars.css');
+
+/* Base Avatar Class */
+.avatar-round {
+    border-radius: 50%;
+}
+
+.avatar-round-sqr {
+    border-radius: 12.5%;
+}
+
+.avatar-sqr {
+    border-radius: 0%;
+    background-color: var(--glass);
+}
+
+
+/* Extra Small Size Avatar  Class */
+.avatar-xs {
+    height: 2rem;
+    width: 2rem;
+}
+
+/* Small Size Avatar Class */
+.avatar-sm {
+    height: 3rem;
+    width: 3rem;
+}
+
+/* Normal Size Avatar Class */
+.avatar-nm {
+    height: 4rem;
+    width: 4rem;
+}
+
+/* Medium Size Avatar Class */
+.avatar-md {
+    height: 5rem;
+    width: 5rem;
+}
+
+/* Large Size Avatar Class */
+.avatar-lg {
+    height: 6rem;
+    width: 6rem;
+}
+
+/* Extra Size Large Avatar Class */
+.avatar-xl {
+    height: 8rem;
+    width: 8rem;
+}

@@ -39,3 +39,6 @@
 .fw-wrap {
     flex-wrap: wrap;
 }
+.gap-1 {
+    gap: 1rem;
+}
