@@ -1,0 +1,17 @@
+@import url('../components/flexbox.css');
+@import url('../components/navbars.css');
+@import url('../shared/common.css');
+
+/*************************************************** Ratings ***********************************************************/
+
+.checked-sun { color: var(--sun); }
+.checked-fire { color: var(--fire); }
+.checked-eco { color: var(--eco); }
+.checked-bee { color: var(--bee); }
+.checked-calm { color: var(--calm); }
+.checked-cool { color: var(--cool); }
+.checked-over { color: var(--over); }
+.checked-rainy { color: var(--rainy); }
+.checked-metal { color: var(--metal); }
+
+/*********************************************************************************************************/

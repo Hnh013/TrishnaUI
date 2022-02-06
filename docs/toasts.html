@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-------------------------------------- CSS Styling Files ------------------------------------------------>
 <!------------------------ Components Styling ---------------------->
-    <link rel="stylesheet" href="../styles/components/navbars.css">
+    <link rel="stylesheet" href="../styles/components/toasts.css">
 <!------------------------------------------------------------------>
 <!--------------------------------------------------------------------------------------------------------->
 <!--------------------------- Google Material Icons CDN link ---------------------------->
@@ -41,86 +41,75 @@
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
 <main class="main">
 
-<!-------------------------------------- Navbars ------------------------------------------------------>
+<!-------------------------------------- Toasts ------------------------------------------------------>
 <div class="px-sm py-sm">
-    <h3>Navbars</h3>
-    <p>These are used to navigate to different pages and / or screens</p>
+    <h3>Toasts</h3>
+    <p>Toasts , stacked and normal are used to show immediate action requiring information to the user</p>
 </div>
 
-<div class="d-flex fd-col gap-1">
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-smoke txt-over">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
+<div class="px-sm d-flex fd-col gap-1 py-sm w-50 mx-auto">
+    <div class="toast-stk bdr-rad-md mx-auto bg-over txt-rainy">
+        <div class="ml-auto toast-content">
+            <div>
+                Incoming Call from Friend
+            </div>
+            <div class="d-flex pt-sm gap-1">
+                <div class="mx-auto px-xs py-xs txt-eco-dark bg-eco-lite d-flex ai-c bdr-rad-sm">
+                    <span class="pr-xs material-icons">call</span>  Pickup
+                </div>
+                <div class="mr-auto px-xs py-xs txt-rainy bg-fire d-flex ai-c bdr-rad-sm">
+                    <span class="pr-xs material-icons">call_end</span> Cancel
+                </div>
+            </div>
         </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
+        <div class="ml-auto material-icons">clear</div> 
     </div>
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-bee-lite txt-over">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
+    <div class="toast bdr-rad-md bg-over txt-rainy">
+        <div class="px-sm">
+           Someone wants to open your document
         </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
+        <div class="mx-auto px-sm txt-eco-dark bg-eco-lite bdr-rad-sm">
+            Allow
         </div>
-    </div>
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-eco txt-smoke">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
+        <div class="mr-auto px-sm txt-smoke bg-fire bdr-rad-sm">
+            Deny
         </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
+        <div class="ml-auto material-icons">clear</div> 
     </div>
 </div>
 
-<div class="d-flex px-sm py-sm jc-c ai-c fw-wrap gap-1">
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-smoke txt-over">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
+        <div class="toast-stk bdr-rad-md mx-auto bg-over txt-rainy">
+            <div class="ml-auto toast-content">
+                <div>
+                    Incoming Call from Friend
+                </div>
+                <div class="d-flex pt-sm gap-1">
+                    <div class="mx-auto px-xs py-xs txt-eco-dark bg-eco-lite d-flex ai-c bdr-rad-sm">
+                        <span class="pr-xs material-icons">call</span>  Pickup
+                    </div>
+                    <div class="mr-auto px-xs py-xs txt-rainy bg-fire d-flex ai-c bdr-rad-sm">
+                        <span class="pr-xs material-icons">call_end</span> Cancel
+                    </div>
+                </div>
+            </div>
+            <div class="ml-auto material-icons">clear</div> 
         </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
+        <div class="toast bdr-rad-md bg-over txt-rainy">
+            <div class="px-sm">
+               Someone wants to open your document
+            </div>
+            <div class="mx-auto px-sm txt-eco-dark bg-eco-lite bdr-rad-sm">
+                Allow
+            </div>
+            <div class="mr-auto px-sm txt-smoke bg-fire bdr-rad-sm">
+                Deny
+            </div>
+            <div class="ml-auto material-icons">clear</div> 
         </div>
-    </div>
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-bee-lite txt-over">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
-        </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
-    </div>
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-eco txt-smoke">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
-        </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
-    </div> 
     </code>
 </pre>
-</div>  
 
 <!-------------------------------------------------------------------------------------------------------->
 
