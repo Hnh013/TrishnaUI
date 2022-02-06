@@ -1,0 +1,130 @@
+@import url('../components/flexbox.css');
+@import url('../components/navbars.css');
+@import url('../shared/common.css');
+
+/*************************************************** INPUTS ***********************************************************/
+:root {
+    --1r : 1rem;
+    --0p5r : 0.5rem; 
+    --0p125r : 0.125rem;
+}
+
+
+.ip-cls[type="text"] , .ip-cls[type="number"] , .ip-cls[type="email"]:invalid, .ip-cls[type="password"] {
+    border-style: solid;
+    border-color: var(--dark);
+    padding: var(--0p5r);
+}
+
+.ip-cls[type="text"]:invalid, .ip-cls[type="email"]:invalid, .ip-cls[type="number"]:invalid, .ip-cls[type="password"]:invalid { border-color: var(--fire); }
+
+.ip-cls[type="text"]:valid, .ip-cls[type="email"]:valid, .ip-cls[type="number"]:valid, .ip-cls[type="password"]:valid { border-color: var(--eco-glow); }
+
+.ip-cls:disabled {
+    background-color: var(--rainy);
+}
+
+.ip-inv {
+    border: none;
+    outline: none;
+    border-bottom: var(--0p125r) solid var(--dark);
+    padding: var(--0p5r);
+}
+
+.ip-inv:invalid { border-color: var(--fire); }
+
+.ip-inv:valid { border-color: var(--eco-glow); }
+
+.ip-msg {
+    font-size : 0.875rem;
+    font-weight: 700;
+}
+.err-msg {    color: var(--fire);    }
+
+.success-msg {    color: var(--eco-glow);    }
+
+.form-control {
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: var(--1r) auto;
+  gap: var(--0p5r);
+}
+
+.form-control + .form-control { margin-top: var(--1r); }
+
+input[type="radio"] {
+    background-color: var(--glass);
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: var(--1r);
+    height: var(--1r);
+    border: var(--0p125r) solid currentColor;
+    border-radius: 50%;
+    transform: translateY(-0.075rem);
+    display: grid;
+    place-content: center;  
+  }
+
+input[type="radio"]::before {
+    content: "";
+    width: var(--0p5r);
+    height: var(--0p5r);
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset var(--1r) var(--1r) var(--metal);
+    background-color: var(--glass);
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+.form-control:focus-within {
+    color: var(--metal);
+}
+
+.form-control--disabled {
+    color: var(--rainy);
+    cursor: not-allowed;
+}
+  
+input[type="checkbox"] {
+    margin: 0;  
+    font: inherit;
+    color: currentColor;
+    width: 1.15rem;
+    height: 1.15rem;
+    border: 0.15rem solid currentColor;
+    border-radius: 0.15rem;
+    transform: translateY(-0.075rem);
+    display: grid;
+    place-content: center;
+}
+  
+input[type="checkbox"]::before {
+    content: "";
+    width: var(--1r);
+    height: var(--1r);
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--glass);
+}
+  
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+  
+input[type="checkbox"]:focus {
+    outline: max(var(--0p125r), 0.15rem) solid var(--dark);
+    outline-offset: max(var(--0p125r), 0.15rem);
+}
+  
+input[type="checkbox"]:disabled {
+    color: var(--rainy);
+    cursor: not-allowed;
+}
+/**********************************************************************************************************************/
