@@ -3,6 +3,7 @@
 @import url('../shared/reset.css');
 @import url('../shared/spacing.css');
 @import url('../shared/positions.css');
+@import url('../components/flexbox.css');
 
 .container {
     display: grid;
