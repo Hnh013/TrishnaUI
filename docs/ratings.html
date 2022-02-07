@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-------------------------------------- CSS Styling Files ------------------------------------------------>
 <!------------------------ Components Styling ---------------------->
-    <link rel="stylesheet" href="../styles/components/navbars.css">
+    <link rel="stylesheet" href="../styles/components/ratings.css">
 <!------------------------------------------------------------------>
 <!--------------------------------------------------------------------------------------------------------->
 <!--------------------------- Google Material Icons CDN link ---------------------------->
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../utils/prism.css">
 <!------------------------------------------------------------>
 <!--------------------------------------------------------------------------------------------------------->
-    <title>TrishnaUI | Navbars</title>
+    <title>TrishnaUI | Ratings</title>
 </head>
 <body>
 <div class="container">
@@ -41,86 +41,75 @@
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
 <main class="main">
 
-<!-------------------------------------- Navbars ------------------------------------------------------>
+<!-------------------------------------- Ratings ------------------------------------------------------>
 <div class="px-sm py-sm">
-    <h3>Navbars</h3>
-    <p>These are used to navigate to different pages and / or screens</p>
+    <h3>Ratings</h3>
+    <p>These are used to capture information provided by user</p>
 </div>
 
-<div class="d-flex fd-col gap-1">
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-smoke txt-over">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
-        </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
-    </div>
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-bee-lite txt-over">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
-        </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
-    </div>
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-eco txt-smoke">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
-        </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
-    </div>
+<div class="px-sm py-sm d-flex jc-c fd-row w-75 fw-wrap mx-auto">
+    <span class=" material-icons">star</span>
+    <span class=" checked-sun material-icons">star</span>
+    <span class=" checked-fire material-icons">star</span>
+    <span class=" checked-eco material-icons">star</span>
+    <span class=" checked-bee material-icons">star</span>
+    <span class=" checked-calm material-icons">star</span>
+    <span class=" checked-cool material-icons">star</span>
+    <span class=" checked-over material-icons">star</span>
+    <span class=" checked-metal material-icons">star</span>
+    <span class=" checked-rainy material-icons">star</span>
 </div>
 
+<pre>
+    <code class="language-markup" data-prismjs-copy="Copy">
+    <span class=" material-icons">star</span>
+    <span class=" checked-sun material-icons">star</span>
+    <span class=" checked-fire material-icons">star</span>
+    <span class=" checked-eco material-icons">star</span>
+    <span class=" checked-bee material-icons">star</span>
+    <span class=" checked-calm material-icons">star</span>
+    <span class=" checked-cool material-icons">star</span>
+    <span class=" checked-over material-icons">star</span>
+    <span class=" checked-metal material-icons">star</span>
+    <span class=" checked-rainy material-icons">star</span>
+    </code>
+</pre>
+
+<div class="px-sm py-sm">
+    <h3>Star Ratings</h3>
+</div>
+<div class="mx-auto d-flex ai-c jc-c">
+    <span onclick="rateThis(1)" class="rating material-icons">star</span>
+    <span onclick="rateThis(2)" class="rating material-icons">star</span>
+    <span onclick="rateThis(3)" class="rating material-icons">star</span>
+    <span onclick="rateThis(4)" class="rating material-icons">star</span>
+    <span onclick="rateThis(5)" class="rating material-icons">star</span>
+</div>
+    
 <div class="d-flex px-sm py-sm jc-c ai-c fw-wrap gap-1">
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-smoke txt-over">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
-        </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
+    <div class="mx-auto d-flex ai-c jc-c">
+        <span onclick="rateThis(1)" class="rating material-icons">star</span>
+        <span onclick="rateThis(2)" class="rating material-icons">star</span>
+        <span onclick="rateThis(3)" class="rating material-icons">star</span>
+        <span onclick="rateThis(4)" class="rating material-icons">star</span>
+        <span onclick="rateThis(5)" class="rating material-icons">star</span>
     </div>
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-bee-lite txt-over">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
-        </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
-    </div>
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-eco txt-smoke">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
-        </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
-    </div> 
+    <script>
+    const rating = document.querySelectorAll(".rating");
+    const rateThis = (number) => {
+    let i = 0;
+    while (i < rating.length) {  
+      i < number ? 
+      rating[i].classList.add("checked-sun") : rating[i].classList.remove("checked-sun"); 
+      i++;
+      } 
+    }
+    </script>
     </code>
 </pre>
-</div>  
+</div>
 
 <!-------------------------------------------------------------------------------------------------------->
 
