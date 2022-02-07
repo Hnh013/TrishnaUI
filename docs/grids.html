@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-------------------------------------- CSS Styling Files ------------------------------------------------>
+<!------------------------ Components Styling ---------------------->
+    <link rel="stylesheet" href="../styles/components/grids.css">
+<!------------------------------------------------------------------>
+<!--------------------------------------------------------------------------------------------------------->
+<!--------------------------- Google Material Icons CDN link ---------------------------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!---------------------------------------------------------------------------------------->
+<!------------- Code Snapshots Formatting Styles ------------->    
+    <link rel="stylesheet" href="../utils/prism.css">
+<!------------------------------------------------------------>
+<!--------------------------------------------------------------------------------------------------------->
+    <title>TrishnaUI | Grids</title>
+</head>
+<body>
+<div class="container">
+<!------------------------------- HEADER (Navbar) ----------------------------------------------------->
+<header class="header">
+    <nav class="navbar d-flex px-sm py-sm jc-sb ai-c" style="background-color: var(--smoke);">
+        <div class="nav-brand">
+            <h1>TrishnaUI</h1>
+        </div>
+        <div class="nav-links d-flex jc-sa">
+            <a class="px-sm py-sm">Home</a>
+            <a class="px-sm py-sm">Docs</a>
+            <a class="px-sm py-sm">Github</a>
+        </div>
+    </nav>
+</header>
+<!---------------------------------------------------------------------------------------------------->
+<!----------------------------------- ASIDE (Sidebar) -------------------------- --------------------->
+
+<!---------------------------------------------------------------------------------------------------->
+<!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
+<main class="main">
+
+<!-------------------------------------- Grids ------------------------------------------------------>
+<div class="px-sm py-sm">
+    <h3>Grids</h3>
+</div>
+
+<div class="px-sm d-flex fd-col gap-1 py-sm w-75 mx-auto"> 
+    <div class="grid g-2-col px-sm">
+        <div class="o-5 d-flex ai-c jc-c bg-bee-lite">One</div>
+        <div class="o-5 d-flex ai-c jc-c bg-bee">Two</div>
+    </div>  
+    <div class="grid g-3-col px-sm">
+        <div class="o-5 d-flex ai-c jc-c bg-fire-lite">One</div>
+        <div class="o-5 d-flex ai-c jc-c bg-eco-lite">Two</div>
+        <div class="o-5 d-flex ai-c jc-c bg-cool">Three</div>
+    </div>
+    <div class="grid g-4-col px-sm">
+        <div class="o-5 d-flex ai-c jc-c bg-bee">One</div>
+        <div class="o-5 d-flex ai-c jc-c bg-sun">Two</div>
+        <div class="o-5 d-flex ai-c jc-c bg-rainy">Three</div>
+        <div class="o-5 d-flex ai-c jc-c bg-metal">Four</div>
+    </div>
+    <div class="grid g-5-col px-sm">
+        <div class="o-5 d-flex ai-c jc-c bg-calm">One</div>
+        <div class="o-5 d-flex ai-c jc-c bg-eco">Two</div>
+        <div class="o-5 d-flex ai-c jc-c bg-bee">Three</div>
+        <div class="o-5 d-flex ai-c jc-c bg-sun">Four</div>
+        <div class="o-5 d-flex ai-c jc-c bg-fire">Five</div>
+    </div> 
+</div>
+
+<pre>
+    <code class="language-markup" data-prismjs-copy="Copy">
+        <div class="grid g-2-col px-sm">
+            <div class="o-5 d-flex ai-c jc-c bg-bee-lite">One</div>
+            <div class="o-5 d-flex ai-c jc-c bg-bee">Two</div>
+        </div>  
+        <div class="grid g-3-col px-sm">
+            <div class="o-5 d-flex ai-c jc-c bg-fire-lite">One</div>
+            <div class="o-5 d-flex ai-c jc-c bg-eco-lite">Two</div>
+            <div class="o-5 d-flex ai-c jc-c bg-cool">Three</div>
+        </div>
+        <div class="grid g-4-col px-sm">
+            <div class="o-5 d-flex ai-c jc-c bg-bee">One</div>
+            <div class="o-5 d-flex ai-c jc-c bg-sun">Two</div>
+            <div class="o-5 d-flex ai-c jc-c bg-rainy">Three</div>
+            <div class="o-5 d-flex ai-c jc-c bg-metal">Four</div>
+        </div>
+        <div class="grid g-5-col px-sm">
+            <div class="o-5 d-flex ai-c jc-c bg-calm">One</div>
+            <div class="o-5 d-flex ai-c jc-c bg-eco">Two</div>
+            <div class="o-5 d-flex ai-c jc-c bg-bee">Three</div>
+            <div class="o-5 d-flex ai-c jc-c bg-sun">Four</div>
+            <div class="o-5 d-flex ai-c jc-c bg-fire">Five</div>
+        </div>        
+    </code>
+</pre>
+
+<!-------------------------------------------------------------------------------------------------------->
+
+</main>
+    <!---------------------------------------------------------------------------------------------------->
+    <!---------------------------------------- FOOTER AREA ----------------------------------------------->
+    <footer class="footer">
+        
+    </footer>
+    <!---------------------------------------------------------------------------------------------------->
+</div>
+</body>
+<!-------------------------------------- Javascript Files -------------------------------------------------->
+<!---------------- Main component JS file ---------------------------->
+<script src="../js/main.js"></script>
+<!-------------------------------------------------------------------->
+<!--------------- Prism and Preformatter for code snaps -------------->
+<script src="../utils/preFormatter.js"></script>
+<script src="../utils/prism.js"></script>
+<!-------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------->
+</html>

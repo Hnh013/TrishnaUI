@@ -1,0 +1,28 @@
+@import url('../components/flexbox.css');
+@import url('../components/navbars.css');
+@import url('../shared/common.css');
+
+/****************************************** GRIDS ******************************************************/ 
+
+.grid {
+    display: grid;
+    grid-auto-rows: minmax(6rem, auto);
+}
+
+.g-5-col {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.g-4-col {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.g-3-col {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.g-2-col {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/********************************************************************************************************/ 
