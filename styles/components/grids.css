@@ -6,7 +6,6 @@
 
 .grid {
     display: grid;
-    grid-auto-rows: minmax(6rem, auto);
 }
 
 .g-5-col {

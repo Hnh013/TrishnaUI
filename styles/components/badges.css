@@ -2,6 +2,7 @@
 @import url('../components/flexbox.css');
 @import url('../components/navbars.css');
 @import url('../components/avatars.css');
+@import url('../components/grids.css');
 
 :root {
     --brdr-sd : solid;

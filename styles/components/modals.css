@@ -2,6 +2,7 @@
 @import url('../components/buttons.css');
 @import url('../components/flexbox.css');
 @import url('../components/navbars.css');
+@import url('../components/grids.css');
 
 /********************************************* Modals  *************************************************************/
 
@@ -11,7 +12,7 @@
     display: none;
     position: fixed;
     padding-top: 20%;
-    z-index: 1; 
+    z-index: 15; 
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
 }

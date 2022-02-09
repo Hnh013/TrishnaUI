@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-------------------------------------- CSS Styling Files ------------------------------------------------>
 <!------------------------ Components Styling ---------------------->
-    <link rel="stylesheet" href="../styles/components/toasts.css">
+<link rel="stylesheet" href="../styles/components/toasts.css">
 <!------------------------------------------------------------------>
 <!--------------------------------------------------------------------------------------------------------->
 <!--------------------------- Google Material Icons CDN link ---------------------------->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!---------------------------------------------------------------------------------------->
 <!------------- Code Snapshots Formatting Styles ------------->    
     <link rel="stylesheet" href="../utils/prism.css">
@@ -20,35 +21,58 @@
     <title>TrishnaUI | Toasts</title>
 </head>
 <body>
-<div class="container">
+<div class="grid-container-docs">
 <!------------------------------- HEADER (Navbar) ----------------------------------------------------->
-<header class="header">
-    <nav class="navbar d-flex px-sm py-sm jc-sb ai-c" style="background-color: var(--smoke);">
-        <div class="nav-brand">
-            <h1>TrishnaUI</h1>
+<header class="header-docs">
+    <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
+        <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
+            <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
         </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
+        <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
+            <div> <a href="../index.html"  >Home</a> </div>
+            <div> <a href="./docs/alerts.html" class="txt-sun" >Docs</a> </div>
+            <div> <a href="https://github.com/Hnh013/TrishnaUI" >Github</a> </div>
         </div>
-    </nav>
+    </nav> 
 </header>
 <!---------------------------------------------------------------------------------------------------->
 <!----------------------------------- ASIDE (Sidebar) -------------------------- --------------------->
-
+<aside class="aside-docs">
+<div class="px-sm py-sm pos-rel hide-drs">
+    <span class="px-sm py-sm f-2x pos-abs top-rgt-5 txt-sun material-icons close-btn">clear</span>
+</div>
+<div class="d-flex fd-col ai-c jc-c f-w-600">
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/alerts.html">Alerts</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/avatars.html">Avatars</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/badges.html">Badges</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/buttons.html">Buttons</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/cards.html">Cards</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/grids.html">Grids</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/images.html">Images</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/inputs.html">Inputs</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/lists.html">Lists</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/modals.html">Modals</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/navbars.html">Navbars</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/ratings.html">Ratings</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Texts</a></p>
+    <p class="px-sm py-sm mx-auto f-w-800"><a class="sidebar-links current" href="../docs/toasts.html">Toasts</a></p>
+</div>
+</aside>
 <!---------------------------------------------------------------------------------------------------->
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
-<main class="main">
-
+<main class="main-docs">
+<div class="pos-abs hide-drs">
+    <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
+</div>
 <!-------------------------------------- Toasts ------------------------------------------------------>
-<div class="px-sm py-sm">
+<div class="pl-xl py-md">
     <h3>Toasts</h3>
     <p>Toasts , stacked and normal are used to show immediate action requiring information to the user</p>
 </div>
 
-<div class="px-sm d-flex fd-col gap-1 py-sm w-50 mx-auto">
-    <div class="toast-stk bdr-rad-md mx-auto bg-over txt-rainy">
+<div class="grid">
+<div class="px-sm d-flex fd-col gap-1 py-sm mx-auto">
+    <div class="toast-stk bdr-rad-md bg-over txt-rainy d-flex fw-wrap fd-col">
         <div class="ml-auto toast-content">
             <div>
                 Incoming Call from Friend
@@ -64,20 +88,18 @@
         </div>
         <div class="ml-auto material-icons">clear</div> 
     </div>
-    <div class="toast bdr-rad-md bg-over txt-rainy">
-        <div class="px-sm">
-           Someone wants to open your document
-        </div>
-        <div class="mx-auto px-sm txt-eco-dark bg-eco-lite bdr-rad-sm">
-            Allow
-        </div>
-        <div class="mr-auto px-sm txt-smoke bg-fire bdr-rad-sm">
-            Deny
-        </div>
-        <div class="ml-auto material-icons">clear</div> 
+    <div class="mx-auto w-75 px-sm py-sm d-flex ai-fs bg-over txt-rainy bdr-rad-md">
+        <span class="pr-sm material-icons">calendar_today</span>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Consectetur neque id harum ea culpa. Amet, eum saepe eveniet
+            pariatur voluptates natus enim alias.Thwe sfdv sdv aasw was 
+            awe af f ef wqfwfqqwf q fqwf fq w ffqw fw for user
+        <span class="close-modal ml-auto rot-c-45 material-icons">add</span>
     </div>
 </div>
+</div>
 
+<div class="grid">
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
         <div class="toast-stk bdr-rad-md mx-auto bg-over txt-rainy">
@@ -96,40 +118,41 @@
             </div>
             <div class="ml-auto material-icons">clear</div> 
         </div>
-        <div class="toast bdr-rad-md bg-over txt-rainy">
-            <div class="px-sm">
-               Someone wants to open your document
-            </div>
-            <div class="mx-auto px-sm txt-eco-dark bg-eco-lite bdr-rad-sm">
-                Allow
-            </div>
-            <div class="mr-auto px-sm txt-smoke bg-fire bdr-rad-sm">
-                Deny
-            </div>
-            <div class="ml-auto material-icons">clear</div> 
+        <div class="mx-auto w-75 px-sm py-sm d-flex ai-fs bg-over txt-rainy bdr-rad-md">
+            <span class="pr-sm material-icons">calendar_today</span>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Consectetur neque id harum ea culpa. Amet, eum saepe eveniet
+                pariatur voluptates natus enim alias.Thwe sfdv sdv aasw was 
+                awe af f ef wqfwfqqwf q fqwf fq w ffqw fw for user
+            <span class="close-modal ml-auto rot-c-45 material-icons">add</span>
         </div>
     </code>
 </pre>
-
+</div>
 <!-------------------------------------------------------------------------------------------------------->
 
 </main>
     <!---------------------------------------------------------------------------------------------------->
     <!---------------------------------------- FOOTER AREA ----------------------------------------------->
-    <footer class="footer">
-        
-    </footer>
+    <footer class="footer-docs py-sm px-sm bg-sun txt-sun bg-over d-flex f-2x jc-c gap-1"> 
+        <div class="social-icon"><a href="https://www.facebook.com/harshit.negi.520/"><i class="fa fa-facebook-square"></i></a></div>
+        <div class="social-icon"><a href="https://github.com/Hnh013"><i class="fa fa-github-square"></i></a></div>
+        <div class="social-icon"><a href="https://www.linkedin.com/in/harshit-negi-891bb717a/"><i class="fa fa-linkedin-square"></i></a></div>
+        <div class="social-icon"><a href="https://twitter.com/Harshit24076243"><i class="fa fa-twitter-square"></i></a></div>
+        <div class="social-icon"><a href="https://www.instagram.com/hnh013/"><i class="fa fa-instagram"></i></a></div>
+    </div> 
+</footer>
     <!---------------------------------------------------------------------------------------------------->
 </div>
 </body>
 <!-------------------------------------- Javascript Files -------------------------------------------------->
-<!---------------- Main component JS file ---------------------------->
-<script src="../js/main.js"></script>
-<script src="../js/components/ratings.js"></script>
+<!----------------  common.js JS file ---------------------------->
+<script src="../js/shared/common.js"></script>
 <!-------------------------------------------------------------------->
 <!--------------- Prism and Preformatter for code snaps -------------->
 <script src="../utils/preFormatter.js"></script>
 <script src="../utils/prism.js"></script>
+
 <!-------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------------------------------->
 </html>
