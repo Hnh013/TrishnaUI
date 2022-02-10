@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="./index.css">
 <!------------------------------------------------------------------>
 <!--------------------------------------------------------------------------------------------------------->
-<!--------------------------- Google Material Icons CDN link ---------------------------->
+<!--------------------------- Google Material & Font Awesome Icons CDN link ---------------------------->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!---------------------------------------------------------------------------------------->
 <!------------- Code Snapshots Formatting Styles ------------->    
     <link rel="stylesheet" href="./utils/prism.css">
@@ -20,36 +21,96 @@
 </head>
 <body>
     <!------------------------------- HEADER (Navbar) ----------------------------------------------------->
-    <header class="header">
-        <nav class="navbar d-flex px-sm py-sm jc-sb ai-c" style="background-color: var(--smoke);">
-            <div class="nav-brand">
-                <h1>TrishnaUI</h1>
+    <div class="grid-container">
+        <header class="header">
+            <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
+                <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
+                    <h2><a href="./index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
+                </div>
+                <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
+                    <div> <a href="./index.html" class="txt-sun" >Home</a> </div>
+                    <div> <a href="./docs/alerts.html" >Docs</a> </div>
+                    <div> <a href="https://github.com/Hnh013/TrishnaUI" >Github</a> </div>
+                </div>
+            </nav>  
+        </header>
+        <main class="main">
+            <div class="main-content px-sm py-sm d-flex fd-col jc-c ai-c txt-smoke">
+                <p class="f-2x ta-c px-sm py-sm fw-600 ">Build Fast , Build Scalable , Build Responsive , Build as you wish with TrishnaUI</p>
+                <div class="mx-auto w-40">
+                    <img src="../images/1.svg" alt="" class="img-square">
+                </div>
+                 <div class="d-flex jc-c ai-c gap-1">
+                    <div class="px-sm py-sm ta-c w-75 f-w-500">
+                        TrishnaUI helps you to design all device friendly and responsive websites with minimum effort , with less
+                        time spent on learning , you can build scalable and highly customizable websites for your project.
+                    </div>  
+                </div>
+                <div class="d-flex jc-c ai-c gap-1">    
+                <button class="btn btn-metal bdr-rad-md">Get Started</button>
+                <button class="btn btn-sun bdr-rad-md"><a href="https://github.com/Hnh013/TrishnaUI">Download</a></button>
+                </div>            
             </div>
-            <div class="nav-links d-flex jc-sa">
-                <a class="px-sm py-sm">Home</a>
-                <a class="px-sm py-sm">Docs</a>
-                <a class="px-sm py-sm">Github</a>
+        </main> 
+        <div class="sub-main px-sm py-sm d-flex jc-sa ai-c fw-wrap gap-1 txt-over">  
+            <div class="card bdr-rad-md bg-smoke">
+                <div class="px-sm pt-xs d-flex fd-col">
+                    <p class="f-2x txt-sun">It's Responsive</p>
+                    Works fine on device & orientation 
+                </div>
+                <hr>
+                <div class="px-sm d-flex fd-col" >
+                    We have tried and tested each one of our components so that given the devide viewport
+                    the component adjusts the best possible way to fit in . Also we utilize a simple breakpoint
+                    system in case you want to have an idea of how we set the values according to viewport changes. 
+                </div>
+                <hr>
+                <div class="px-xs pb-xs d-flex fd-row ai-c jc-c">
+                    <button class="btn btn-sun bdr-rad-sm"><a href="./docs/alerts.html">Continue</a></button>
+                </div>
             </div>
-        </nav>
-    </header>
-    <!---------------------------------------------------------------------------------------------------->
-    <!----------------------------------- ASIDE (Sidebar) -------------------------- --------------------->
-
-    <!---------------------------------------------------------------------------------------------------->
-    <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
-    <main class="main">
-        <div class="nav-links d-flex fd-col jc-c">
-            <div class="social-icon"><a href="https://www.facebook.com/harshit.negi.520/">Facebook</a></div>
-            <div class="social-icon"><a href="https://github.com/Hnh013"></a>Github</div>
-            <div class="social-icon"><a href="https://www.linkedin.com/in/harshit-negi-891bb717a/">Linkedin</a></div>
-            <div class="social-icon"><a href="https://twitter.com/Harshit24076243">Twitter</a></div>
-            <div class="social-icon"><a href="https://www.instagram.com/hnh013/">Instagram</a></div>
+            <div class="card bdr-rad-md bg-smoke">
+                <div class="px-sm pt-xs d-flex fd-col">
+                      <p class="f-2x txt-over">It's Fast</p>
+                      Get started quickly
+                </div>
+                <hr>
+                <div class="px-sm d-flex fd-col" >
+                    To get started you do not need to downlaod anything  , you just need to put in the link
+                     of the CDN in your stylesheet url and you're done. Now you can choose whatever components
+                     you want and wherever you want to style with our library, that all with just a link. 
+                </div>
+                <hr>
+                <div class="px-xs pb-xs d-flex fd-row ai-c jc-c">
+                    <button class="btn btn-over bdr-rad-sm"><a href="./docs/alerts.html">Continue</a></button>
+                </div>
+            </div>
+            <div class="card bdr-rad-md bg-smoke">
+                <div class="px-sm pt-xs d-flex fd-col">
+                    <p class="f-2x txt-metal">It's what you want</p>
+                    Want to play & Customize ? Come along
+                </div>
+                <hr>
+                <div class="px-sm d-flex fd-col" >
+                    You can choose our styles and colors and font families if you want , or even better , you 
+                    can choose your favorites and can customize the library components according to your needs.
+                    For this we provide lots of utility classes and options to give custom values to attributes
+                </div>
+                <hr>
+                <div class="px-xs pb-xs d-flex fd-row ai-c jc-c">
+                    <button class="btn btn-metal bdr-rad-sm"><a href="./docs/alerts.html">Continue</a></button>
+                </div>
+            </div>    
         </div>
-    </main>
-    <!---------------------------------------------------------------------------------------------------->
-    <!---------------------------------------- FOOTER AREA ----------------------------------------------->
-    <footer class="footer">
-    </footer>
+        <footer class="footer py-sm px-sm bg-sun txt-sun bg-over d-flex f-2x jc-c gap-1"> 
+            <div class="social-icon"><a href="https://www.facebook.com/harshit.negi.520/"><i class="fa fa-facebook-square"></i></a></div>
+            <div class="social-icon"><a href="https://github.com/Hnh013"><i class="fa fa-github-square"></i></a></div>
+            <div class="social-icon"><a href="https://www.linkedin.com/in/harshit-negi-891bb717a/"><i class="fa fa-linkedin-square"></i></a></div>
+            <div class="social-icon"><a href="https://twitter.com/Harshit24076243"><i class="fa fa-twitter-square"></i></a></div>
+            <div class="social-icon"><a href="https://www.instagram.com/hnh013/"><i class="fa fa-instagram"></i></a></div>
+        </div> 
+        </footer>
+        </div>
     <!---------------------------------------------------------------------------------------------------->
 </body>
 <!-------------------------------------- Javascript Files -------------------------------------------------->
@@ -62,3 +123,7 @@
 <!-------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------------------------------->
 </html>
+
+<div class="nav-links d-flex fd-col jc-c">
+    
+</div>

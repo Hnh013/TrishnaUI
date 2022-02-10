@@ -1,22 +1,26 @@
 @import url('../shared/common.css');
 @import url('../components/flexbox.css');
 @import url('../components/navbars.css');
-
+@import url('../components/grids.css');
 /********************************************* Alerts  *************************************************************/
 
 .alert {
     padding: 1rem;
-    display: flex;
-    align-items: flex-start;
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+
+.alert-close {
+    float: right;
 }
 
 .alert-fire {
-    background-color: var(--fire-lite);
-    color: var(--fire-dark);
+    background-color: var(--fire);
+    color: var(--smoke);
 }
 
 .alert-bee {
-    background-color: var(--bee-lite);
+    background-color: var(--bee);
     color: var(--over);
 }
 
@@ -26,8 +30,8 @@
 }
 
 .alert-eco {
-    background-color: var(--eco-lite);
-    color: var(--eco-dark);
+    background-color: var(--eco);
+    color: var(--smoke);
 }
 
 .alert-cool {

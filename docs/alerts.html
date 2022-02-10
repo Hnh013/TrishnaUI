@@ -11,6 +11,7 @@
 <!--------------------------------------------------------------------------------------------------------->
 <!--------------------------- Google Material Icons CDN link ---------------------------->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!---------------------------------------------------------------------------------------->
 <!------------- Code Snapshots Formatting Styles ------------->    
     <link rel="stylesheet" href="../utils/prism.css">
@@ -19,140 +20,164 @@
     <title>TrishnaUI | Alerts</title>
 </head>
 <body>
-<div class="container">
+<div class="grid-container-docs">
 <!------------------------------- HEADER (Navbar) ----------------------------------------------------->
-<header class="header">
-    <nav class="navbar d-flex px-sm py-sm jc-sb ai-c" style="background-color: var(--smoke);">
-        <div class="nav-brand">
-            <h1>TrishnaUI</h1>
+<header class="header-docs">
+    <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
+        <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
+            <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
         </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
+        <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
+            <div> <a href="../index.html"  >Home</a> </div>
+            <div> <a href="./docs/alerts.html" class="txt-sun" >Docs</a> </div>
+            <div> <a href="https://github.com/Hnh013/TrishnaUI" >Github</a> </div>
         </div>
-    </nav>
+    </nav> 
 </header>
 <!---------------------------------------------------------------------------------------------------->
 <!----------------------------------- ASIDE (Sidebar) -------------------------- --------------------->
-
+<aside class="aside-docs">
+    <div class="px-sm py-sm pos-rel hide-drs">
+        <span class="px-sm py-sm f-2x pos-abs top-rgt-5 txt-sun material-icons close-btn">clear</span>
+    </div>
+    <div class="d-flex fd-col ai-c jc-c f-w-600">
+        <p class="px-sm py-sm mx-auto f-w-800"><a class="sidebar-links current" href="../docs/alerts.html">Alerts</a></p>
+        <p class="px-sm py-sm mx-auto "><a class="sidebar-links" href="../docs/avatars.html">Avatars</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/badges.html">Badges</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/buttons.html">Buttons</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/cards.html">Cards</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/grids.html">Grids</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/images.html">Images</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/inputs.html">Inputs</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/lists.html">Lists</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/modals.html">Modals</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/navbars.html">Navbars</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/ratings.html">Ratings</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Texts</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/toasts.html">Toasts</a></p>
+    </div>
+</aside>
+<!-----------------
 <!---------------------------------------------------------------------------------------------------->
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
-<main class="main">
-
+<main class="main-docs">
+    <div class="pos-abs hide-drs">
+        <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
+    </div>
 <!-------------------------------------- ALERTS ------------------------------------------------------>
-<div class="px-sm py-sm">
+<div class="pl-xl py-md d-flex fw-wrap">
     <h3>Alerts</h3>
     <p>These are alerts to convey any special information like updates, notifications, call or messages to the user </p>
 </div>
 
-<div class="d-flex fd-col px-sm py-sm jc-c ai-c fw-wrap gap-1">
-    <div class="alert alert-fire bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">whatshot</span>
-        This is a fire theme alert ! It show potential danger 
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
+<div class="px-xs py-xs grid">
+    <div class="alert alert-fire bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a fire theme alert ! It show potential danger
     </div>
-    <div class="alert alert-bee bdr-rad-md mx-auto w-50"">
-        <span class="pr-sm material-icons">warning</span>
+    <div class="py-xs"></div>
+    <div class="alert alert-bee bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
         This is a bee theme alert . It shows potential dangers and warns
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
     </div>
-    <div class="alert alert-sun bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">calendar_today</span>
-        This is a sun theme alert for some specific notifications for user
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
+    <div class="py-xs"></div>
+    <div class="alert alert-sun bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a sun theme alert for some specific notifications for user ewrwef Lorem ipsum dolor sit amet.
     </div>
-    <div class="alert alert-eco bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">call</span>
-        This is an eco theme alert for any calls or mails
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
-    </div>    
-    <div class="alert alert-cool bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">email</span>
-        This is a cool theme alert for any general notifications and updates
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
+    <div class="py-xs"></div>
+    <div class="alert alert-eco bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a eco theme alert ! It show potential danger
     </div>
-    <div class="alert alert-metal bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">location_on</span>
-        This is a metal theme alert for some specific notifications
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
+    <div class="py-xs"></div>
+    <div class="alert alert-cool bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a cool theme alert . It shows potential dangers and warns Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda obcaecati provident.
     </div>
-    <div class="alert alert-over bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">lock</span>
-        This is a overcast theme alert for system updates or notifications
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
+    <div class="py-xs"></div>
+    <div class="alert alert-metal bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a metal theme alert for some specific notifications for user
     </div>
-    <div class="alert alert-rainy bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">apps</span>
-        This is a rainy theme for some general system notifications
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
+    <div class="px-xs py-xs"></div>
+    <div class="alert alert-rainy bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a rainy theme alert for some specific notifications for user
     </div>
+    <div class="py-xs"></div>
+    <div class="alert alert-over bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a overcast theme alert for some specific notifications for user
+    </div>   
 </div>
-<div class="d-flex px-sm py-sm jc-c ai-c fw-wrap gap-1">
+
+<div class="grid">
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
-    <div class="alert alert-fire bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">whatshot</span>
+    <div class="alert alert-fire bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
         This is a fire theme alert ! It show potential danger 
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
     </div>
-    <div class="alert alert-bee bdr-rad-md mx-auto w-50"">
-        <span class="pr-sm material-icons">warning</span>
+    <div class="alert alert-bee bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
         This is a bee theme alert . It shows potential dangers and warns
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
     </div>
-    <div class="alert alert-sun bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">calendar_today</span>
-        This is a sun theme alert for some specific notifications for user
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
+    <div class="alert alert-sun bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a sun theme alert for some specific notifications for user ewrwef Lorem ipsum dolor sit amet.
     </div>
-    <div class="alert alert-eco bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">call</span>
-        This is an eco theme alert for any calls or mails
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
-    </div>    
-    <div class="alert alert-cool bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">email</span>
-        This is a cool theme alert for any general notifications and updates
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
+    <div class="alert alert-eco bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a eco theme alert ! It show potential danger
     </div>
-    <div class="alert alert-metal bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">location_on</span>
-        This is a metal theme alert for some specific notifications
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
+    <div class="alert alert-cool bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a cool theme alert . It shows potential dangers and warns Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda obcaecati provident.
     </div>
-    <div class="alert alert-over bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">lock</span>
-        This is a overcast theme alert for system updates or notifications
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
+    <div class="alert alert-metal bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a metal theme alert for some specific notifications for user
     </div>
-    <div class="alert alert-rainy bdr-rad-md mx-auto w-50">
-        <span class="pr-sm material-icons">apps</span>
-        This is a rainy theme for some general system notifications
-        <span class="ml-auto rot-c-45 material-icons">add_circle</span>
+    <div class="alert alert-rainy bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a rainy theme alert for some specific notifications for user
+    </div>
+    <div class="alert alert-over bdr-rad-md">
+        <span class="alert-close rot-c-45 material-icons">add_circle</span>
+        This is a overcast theme alert for some specific notifications for user
     </div>
     </code>
 </pre>
 </div>
+
+
 
 <!-------------------------------------------------------------------------------------------------------->
 
 </main>
     <!---------------------------------------------------------------------------------------------------->
     <!---------------------------------------- FOOTER AREA ----------------------------------------------->
-    <footer class="footer">
-        
+    <footer class="footer-docs py-sm px-sm bg-sun txt-sun bg-over d-flex f-2x jc-c gap-1"> 
+            <div class="social-icon"><a href="https://www.facebook.com/harshit.negi.520/"><i class="fa fa-facebook-square"></i></a></div>
+            <div class="social-icon"><a href="https://github.com/Hnh013"><i class="fa fa-github-square"></i></a></div>
+            <div class="social-icon"><a href="https://www.linkedin.com/in/harshit-negi-891bb717a/"><i class="fa fa-linkedin-square"></i></a></div>
+            <div class="social-icon"><a href="https://twitter.com/Harshit24076243"><i class="fa fa-twitter-square"></i></a></div>
+            <div class="social-icon"><a href="https://www.instagram.com/hnh013/"><i class="fa fa-instagram"></i></a></div>
+        </div> 
     </footer>
     <!---------------------------------------------------------------------------------------------------->
 </div>
+
 </body>
 <!-------------------------------------- Javascript Files -------------------------------------------------->
-<!---------------- Main component JS file ---------------------------->
-<script src="../js/main.js"></script>
+<!----------------  common.js JS file ---------------------------->
+<script src="../js/shared/common.js"></script>
 <!-------------------------------------------------------------------->
 <!--------------- Prism and Preformatter for code snaps -------------->
 <script src="../utils/preFormatter.js"></script>
 <script src="../utils/prism.js"></script>
+
 <!-------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------------------------------->
 </html>
