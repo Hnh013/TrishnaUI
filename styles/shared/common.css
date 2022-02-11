@@ -3,9 +3,9 @@
 @import url('../shared/reset.css');
 @import url('../shared/spacing.css');
 @import url('../shared/positions.css');
-@import url('../components/flexbox.css');
 
-
+/***********************************************************************************************************************/
+/******************************** Common Styles for background and font/text color *************************************/
 .bg-fire { background-color: var(--fire); }
 .bg-fire-lite { background-color: var(--fire-lite); }
 .bg-fire-dark { color: var(--fire-dark); }
@@ -41,6 +41,11 @@
 .txt-rainy { color: var(--rainy); }
 .txt-smoke { color: var(--smoke); }
 
+/***********************************************************************************************************************/
+/***********************************************************************************************************************/
+
+/*********************************************************************************************************************/
+/************************************* Documentation Pages Styles (via Grids)  ***************************************/
 
 .grid-container-docs {
     display: grid;
@@ -101,3 +106,6 @@
 .aside-docs::-webkit-scrollbar-track {    background: var(--bee-lite);   }
 .aside-docs::-webkit-scrollbar-thumb {    height: 20px;    background: var(--rainy); }
 .aside-docs::-webkit-scrollbar-thumb:hover {     background: var(--over);    } 
+
+/*************************************************************************************************************************/
+/*************************************************************************************************************************/
