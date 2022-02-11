@@ -7,21 +7,24 @@
 
 .toast {
     padding: 1rem;
-    display: flex;
-    align-items: space-between;
+    border-radius: 0.5rem;
+    background-color: var(--over);
+    text-align: center;
 }
 
-.toast-stk {
+.toast-actions {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.snackbar {
     padding: 1rem;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-end;
-}
-
-.toast-content {
-    display: flex;
-    flex-direction: column;
+    align-items: center;
+    background-color: var(--over);
+    border-radius: 0.5rem;
 }
 
 /********************************************************************************************************/

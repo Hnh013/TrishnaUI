@@ -28,6 +28,9 @@
 <header class="header-docs">
     <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
         <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
+            <div class="hide-drs">
+                <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
+            </div>
             <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
         </div>
         <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
@@ -56,54 +59,78 @@
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/modals.html">Modals</a></p>
     <p class="px-sm py-sm mx-auto f-w-800"><a class="sidebar-links current" href="../docs/navbars.html">Navbars</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/ratings.html">Ratings</a></p>
-    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Texts</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Typography</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/toasts.html">Toasts</a></p>
 </div>
 </aside>
 <!---------------------------------------------------------------------------------------------------->
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
 <main class="main-docs">
-<div class="pos-abs hide-drs">
-    <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
-</div>
 <!-------------------------------------- Navbars ------------------------------------------------------>
-<div class="pl-xl py-md">
-    <h3>Navbars</h3>
-    <p>These are used to navigate to different pages and / or screens</p>
+<div class="px-sm py-md">
+    <p class="f-2x f-w-600">Navbars</h3>
+    <p class="f-11x">The navigation bar or simply navbar is one of the most important parts of a website. Usually at the top, 
+        it tells users about the information and actions relating to the current screen, with the mostly used actions
+        present in form of links.</p>
 </div>
 
-<div class="d-flex fd-col gap-1">
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-smoke txt-over">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
+<div class="px-sm py-sm">
+    <h2>Simple Navbars</h2>
+    <p>Navbars can be like a simple navbar with brand name on one side , and some important links on the other.
+       Usually they do not change their shape or orientation to a great extent, upon changing the viewport size.
+    </p>
+</div>
+<div class="px-sm py-sm">
+    <div class="navbar d-flex fd-row px-sm py-sm jc-sb ai-c bg-metal txt-smoke">
+        <div class="nav-brand f-2x">
+            Brand Name
         </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
-    </div>
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-bee-lite txt-over">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
-        </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
+        <div class="nav-links d-flex jc-sa gap-1">
+            <a href="#" class="px-xs py-xs">Home</a>
+            <a href="#" class="px-xs py-xs">About</a>
+            <a href="#" class="px-xs py-xs">Products</a>
         </div>
     </div>
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-eco txt-smoke">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
+</div> 
+<div class="grid">
+<pre>
+    <code class="language-markup" data-prismjs-copy="Copy">
+        <!-- This navbar uses lots of utility classes hence a better control over its placement and design approach -->
+        <div class="navbar d-flex fd-row px-sm py-sm jc-sb ai-c bg-metal txt-smoke">
+            <div class="nav-brand f-2x">
+                Brand Name
+            </div>
+            <div class="nav-links d-flex jc-sa gap-1">
+                <a href="#" class="px-xs py-xs">Home</a>
+                <a href="#" class="px-xs py-xs">About</a>
+                <a href="#" class="px-xs py-xs">Products</a>
+            </div>
         </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
+    </code>
+</pre>
+</div>  
+
+
+<div class="px-sm py-sm">
+    <h2>Responsive Navbars</h2>
+    <p>Responsive navbars are the navbars that can adapt to change in viewport by changing their shape or orientation 
+    to the one fitting the screen, upon changing the viewport size.
+    </p>
+</div>
+
+<div class="px-sm py-sm">
+    <div class="nav-grid bg-metal txt-smoke">
+        <div class="nav-g-brand">
+            <span class="f-2x">Brand Name</span>
+            <span class="toggle-btn"><span class="material-icons">menu</span></span>
+        </div>
+        <div class="nav-g-search">
+            <input type="text" class="nav-search"><span class="f-2x material-icons">search</span>
+        </div>
+        <div class="nav-g-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
         </div>
     </div>
 </div>
@@ -111,38 +138,29 @@
 <div class="grid">
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-smoke txt-over">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
+        <!-- This responsive navbar offers comparatively fewer options to customize
+            than simple navbars owing to its complexity and dynamic logic -->
+        <div class="nav-grid bg-metal txt-smoke">
+            <div class="nav-g-brand">
+                <span class="f-2x">Brand Name</span>
+                <span class="toggle-btn"><span class="material-icons">menu</span></span>
+            </div>
+            <div class="nav-g-search">
+                <input type="text" class="nav-search"><span class="f-2x material-icons">search</span>
+            </div>
+            <div class="nav-g-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+            </div>
         </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
-    </div>
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-bee-lite txt-over">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
-        </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
-    </div>
-
-    <div class="navbar mx-auto d-flex fd-row px-sm py-sm jc-sb ai-c w-75 bg-eco txt-smoke">
-        <div class="nav-brand">
-            <h1>Brand Name</h1>
-        </div>
-        <div class="nav-links d-flex jc-sa">
-            <a class="px-sm py-sm">Home</a>
-            <a class="px-sm py-sm">Docs</a>
-            <a class="px-sm py-sm">Github</a>
-        </div>
-    </div> 
+        <script>
+            // javascript code snippet to dyanamically add the responsive class
+            const togglerBtn = document.querySelector(".toggle-btn");
+            const navGLinks = document.querySelector(".nav-g-links");
+            const navGSearch = document.querySelector(".nav-g-search");
+            togglerBtn.addEventListener("click", () => { navGLinks.classList.toggle("responsive"); navGSearch.classList.toggle("responsive"); });
+        </script>
     </code>
 </pre>
 </div>  
@@ -170,7 +188,8 @@
 <!--------------- Prism and Preformatter for code snaps -------------->
 <script src="../utils/preFormatter.js"></script>
 <script src="../utils/prism.js"></script>
-
+<script>
+</script>
 <!-------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------------------------------->
 </html>
