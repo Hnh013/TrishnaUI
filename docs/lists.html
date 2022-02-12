@@ -25,8 +25,11 @@
 <!------------------------------- HEADER (Navbar) ----------------------------------------------------->
 <header class="header-docs">
     <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
-        <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
-            <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
+        <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">     
+        <div class="hide-drs">
+            <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
+        </div>
+        <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
         </div>
         <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
             <div> <a href="../index.html"  >Home</a> </div>
@@ -54,119 +57,76 @@
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/modals.html">Modals</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/navbars.html">Navbars</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/ratings.html">Ratings</a></p>
-    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Texts</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Typography</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/toasts.html">Toasts</a></p>
 </div>
 </aside>
 <!---------------------------------------------------------------------------------------------------->
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
 <main class="main-docs">
-<div class="pos-abs hide-drs">
-    <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
-</div>
-    
 <!-------------------------------------- Lists ------------------------------------------------------>
-<div class="pl-xl py-md d-flex fd-col fw-wrap">
-    <h3>Lists</h3>
-    <p>These are Ordered Lists and Unordered Lists</p>
+<div class="px-sm py-sm">
+    <p class="f-2x f-w-600">Lists</h3>
+    <p class="f-11x py-sm">HTML lists are used to present list of information in well formed and semantic way. 
+       There are three different types of list in HTML and each one has a specific purpose and meaning.</p>
 </div>
 
-    <div class="px-sm py-sm d-flex fd-row w-75 fw-wrap mx-auto">
-        <div>
-            <ul class="ul">
-                <li class="li li-sun">Item One</li>
-                <li class="li li-sun">Item One</li>
-            </ul>
-        </div>
-        <div>
-            <ul class="ul">
-                <li class="li li-fire">Item Two</li>
-                <li class="li li-fire">Item Two</li>
-            </ul>
-        </div>
-        <div>
-            <ul class="ul">
-                <li class="li li-eco">Item Three</li>
-                <li class="li li-eco">Item Three</li>
-            </ul>
-        </div>
-        <div>
-        <ul class="ul">
-            <li class="li li-cool">Item Four</li>
-            <li class="li li-cool">Item Four</li>
-        </ul>
-        </div>
-        <div>
+<div class="px-sm py-sm">
+    <h2>Ordered Lists</h2>
+    <p>Ordered lists are used when the order of the list's items is important. The list items in an 
+    ordered list are marked with numbers.</p>
+</div>
+
+<div class="px-sm py-sm w-75 mx-auto">
+    <div class="px-xm py-xm bg-smoke d-flex fw-wrap ai-c jc-c bdr-rad-md">
+        <div class="px-sm py-sm">
         <ol class="ol">
             <li class="li li-calm">Item One</li>
             <li class="li li-calm">Item One</li>
         </ol>
         </div>
-        <div>
+        <div class="px-sm py-sm">
         <ol class="ol">
             <li class="li li-metal">Item Three</li>
             <li class="li li-metal">Item Three</li>
         </ol>
         </div>
-        <div>
+        <div class="px-sm py-sm">
         <ol class="ol">
             <li class="li li-bee">Item Four</li>
             <li class="li li-bee">Item Four</li>
         </ol>
         </div>
-        <div>
+        <div class="px-sm py-sm">
         <ol class="ol">
             <li class="li li-rainy">Item Four</li>
             <li class="li li-rainy">Item Four</li>
         </ol>
         </div>
     </div>
+</div>
 <div class="grid">
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
-    <div>
-        <ul class="ul">
-            <li class="li li-sun">Item One</li>
-            <li class="li li-sun">Item One</li>
-        </ul>
-    </div>
-    <div>
-        <ul class="ul">
-            <li class="li li-fire">Item Two</li>
-            <li class="li li-fire">Item Two</li>
-        </ul>
-    </div>
-    <div>
-        <ul class="ul">
-            <li class="li li-eco">Item Three</li>
-            <li class="li li-eco">Item Three</li>
-        </ul>
-    </div>
-    <div>
-    <ul class="ul">
-        <li class="li li-cool">Item Four</li>
-        <li class="li li-cool">Item Four</li>
-    </ul>
-    </div>
-    <div>
+    <div class="px-sm py-sm">
     <ol class="ol">
         <li class="li li-calm">Item One</li>
         <li class="li li-calm">Item One</li>
     </ol>
     </div>
-    <div>
+    <div class="px-sm py-sm">
     <ol class="ol">
         <li class="li li-metal">Item Three</li>
         <li class="li li-metal">Item Three</li>
     </ol>
     </div>
-    <div>
+    <div class="px-sm py-sm">
     <ol class="ol">
         <li class="li li-bee">Item Four</li>
         <li class="li li-bee">Item Four</li>
     </ol>
     </div>
-    <div>
+    <div class="px-sm py-sm">
     <ol class="ol">
         <li class="li li-rainy">Item Four</li>
         <li class="li li-rainy">Item Four</li>
@@ -177,71 +137,139 @@
 </div>
 
 <div class="px-sm py-sm">
-    <h3>Stacked Lists</h3>
-    <p>These are Stacked Lists</p>
+    <h2>Unordered Lists</h2>
+    <p>In an unordered list, the list items in are marked with bullets</p>
 </div>
-<div class="mx-auto px-sm d-flex fd-col w-75 mx-auto">
-    <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-fire" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-fire" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-    </ul>
-    <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-eco" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-eco" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-    </ul>
-    <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-sun" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-sun" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-    </ul>
-    <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-bee" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-bee" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-    </ul>
-    <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-over" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-over" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-    </ul>
-    <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-cool" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-cool" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-    </ul>
-    <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-metal" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-metal" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-    </ul>
+
+<div class="px-sm py-sm w-75 mx-auto">
+    <div class="px-xm py-xm bg-smoke d-flex fw-wrap ai-c jc-c bdr-rad-md">
+        <div class="px-sm py-sm">
+        <ol class="ol">
+            <li class="li li-sun">Item One</li>
+            <li class="li li-sun">Item One</li>
+        </ol>
+        </div>
+        <div class="px-sm py-sm">
+        <ol class="ol">
+            <li class="li li-fire">Item Three</li>
+            <li class="li li-fire">Item Three</li>
+        </ol>
+        </div>
+        <div class="px-sm py-sm">
+        <ol class="ol">
+            <li class="li li-eco">Item Four</li>
+            <li class="li li-eco">Item Four</li>
+        </ol>
+        </div>
+        <div class="px-sm py-sm">
+        <ol class="ol">
+            <li class="li li-cool">Item Four</li>
+            <li class="li li-cool">Item Four</li>
+        </ol>
+        </div>
+    </div>
 </div>
-    
+<div class="grid">
+<pre>
+    <code class="language-markup" data-prismjs-copy="Copy">
+    <div class="px-sm py-sm">
+    <ol class="ol">
+        <li class="li li-sun">Item One</li>
+        <li class="li li-sun">Item One</li>
+    </ol>
+    </div>
+    <div class="px-sm py-sm">
+    <ol class="ol">
+        <li class="li li-fire">Item Three</li>
+        <li class="li li-fire">Item Three</li>
+    </ol>
+    </div>
+    <div class="px-sm py-sm">
+    <ol class="ol">
+        <li class="li li-eco">Item Four</li>
+        <li class="li li-eco">Item Four</li>
+    </ol>
+    </div>
+    <div class="px-sm py-sm">
+    <ol class="ol">
+        <li class="li li-cool">Item Four</li>
+        <li class="li li-cool">Item Four</li>
+    </ol>
+    </div>
+    </code>
+</pre>
+</div>
+
+<div class="px-sm py-sm">
+    <h2>Stacked Lists</h2>
+    <p>A stacked list, the list items in are ususally not marked but are directly stacked on top of one another.
+    Usually used to implement notifications.
+    </p>
+</div>
+
+<div class="px-sm py-sm w-75 mx-auto">
+    <div class="px-sm py-sm d-flex fd-col gap-1 bg-smoke bdr-rad-md">
+        <ul class="ul-stk">
+            <li class="px-xs py-xs li-stk li-fire" >This is a list item in a stacked list, used for notifications.</li>
+            <li class="px-xs py-xs li-stk li-fire" >This is a list item in a stacked list, used for notifications.</li>
+        </ul>
+        <ul class="ul-stk">
+            <li class="px-xs py-xs li-stk li-eco" >This is a list item in a stacked list, used for notifications.</li>
+            <li class="px-xs py-xs li-stk li-eco" >This is a list item in a stacked list, used for notifications.</li>
+        </ul>
+        <ul class="ul-stk">
+            <li class="px-xs py-xs li-stk li-sun" >This is a list item in a stacked list, used for notifications.</li>
+            <li class="px-xs py-xs li-stk li-sun" >This is a list item in a stacked list, used for notifications.</li>
+        </ul>
+        <ul class="ul-stk">
+            <li class="px-xs py-xs li-stk li-bee" >This is a list item in a stacked list, used for notifications.</li>
+            <li class="px-xs py-xs li-stk li-bee" >This is a list item in a stacked list, used for notifications.</li>
+        </ul>
+        <ul class="ul-stk">
+            <li class="px-xs py-xs li-stk li-over" >This is a list item in a stacked list, used for notifications.</li>
+            <li class="px-xs py-xs li-stk li-over" >This is a list item in a stacked list, used for notifications.</li>
+        </ul>
+        <ul class="ul-stk">
+            <li class="px-xs py-xs li-stk li-cool" >This is a list item in a stacked list, used for notifications.</li>
+            <li class="px-xs py-xs li-stk li-cool" >This is a list item in a stacked list, used for notifications.</li>
+        </ul>
+        <ul class="ul-stk">
+            <li class="px-xs py-xs li-stk li-metal" >This is a list item in a stacked list, used for notifications.</li>
+            <li class="px-xs py-xs li-stk li-metal" >This is a list item in a stacked list, used for notifications.</li>
+        </ul>
+    </div>
+</div>    
 <div class="grid">
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
     <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-fire" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-fire" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
+        <li class="px-xs py-xs li-stk li-fire" >This is a list item in a stacked list, used for notifications.</li>
+        <li class="px-xs py-xs li-stk li-fire" >This is a list item in a stacked list, used for notifications.</li>
     </ul>
     <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-eco" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-eco" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
+        <li class="px-xs py-xs li-stk li-eco" >This is a list item in a stacked list, used for notifications.</li>
+        <li class="px-xs py-xs li-stk li-eco" >This is a list item in a stacked list, used for notifications.</li>
     </ul>
     <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-sun" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-sun" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
+        <li class="px-xs py-xs li-stk li-sun" >This is a list item in a stacked list, used for notifications.</li>
+        <li class="px-xs py-xs li-stk li-sun" >This is a list item in a stacked list, used for notifications.</li>
     </ul>
     <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-bee" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-bee" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
+        <li class="px-xs py-xs li-stk li-bee" >This is a list item in a stacked list, used for notifications.</li>
+        <li class="px-xs py-xs li-stk li-bee" >This is a list item in a stacked list, used for notifications.</li>
     </ul>
     <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-over" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-over" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
+        <li class="px-xs py-xs li-stk li-over" >This is a list item in a stacked list, used for notifications.</li>
+        <li class="px-xs py-xs li-stk li-over" >This is a list item in a stacked list, used for notifications.</li>
     </ul>
     <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-cool" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-cool" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
+        <li class="px-xs py-xs li-stk li-cool" >This is a list item in a stacked list, used for notifications.</li>
+        <li class="px-xs py-xs li-stk li-cool" >This is a list item in a stacked list, used for notifications.</li>
     </ul>
     <ul class="ul-stk">
-        <li class="px-xs py-xs li-stk li-metal" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-        <li class="px-xs py-xs li-stk li-metal" >Itne Lorem ipsum, Quasi perspiciatis similique ipsum.</li>
-    </ul>
+        <li class="px-xs py-xs li-stk li-metal" >This is a list item in a stacked list, used for notifications.</li>
+        <li class="px-xs py-xs li-stk li-metal" >This is a list item in a stacked list, used for notifications.</li>
+    </ul> 
     </code>
 </pre>
 </div>

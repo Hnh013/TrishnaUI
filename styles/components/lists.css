@@ -31,16 +31,16 @@
 .li-stk.li-bee { border-color: var(--over); background-color: var(--bee-lite); color: var(--over); }
 .li-stk.li-sun { border-color: var(--over) ;background-color: var(--sun); color: var(--over); }
 .li-stk.li-eco { border-color: var(--eco-dark); background-color: var(--eco-lite); color: var(--eco-dark); }
-.li-stk.li-cool {  background-color: var(--smoke); color: var(--cool); border-color: var(--cool); }
-.li-stk.li-metal { background-color: var(--smoke); color: var(--metal); border-color: var(--metal); }
-.li-stk.li-over { border-color:var(--smoke); background-color: var(--over); color: var(--smoke); }
+.li-stk.li-cool {  background-color: var(--rainy); color: var(--cool); border-color: var(--cool); }
+.li-stk.li-metal { background-color: var(--rainy); color: var(--metal); border-color: var(--metal); }
+.li-stk.li-over { border-color:var(--rainy); background-color: var(--over); color: var(--rainy); }
 
 .li-stk.li-fire:active,.li-stk.li-fire:hover { background-color: var(--fire-dark); color: var(--fire-lite); border-color: var(--fire-lite); }
 .li-stk.li-bee:active,.li-stk.li-bee:hover { background-color: var(--over); color: var(--bee-lite); border-color: var(--bee-lite); }
 .li-stk.li-sun:active,.li-stk.li-sun:hover { background-color: var(--over); color: var(--sun); border-color: var(--sun); }
 .li-stk.li-eco:active,.li-stk.li-eco:hover { background-color: var(--eco-dark); color: var(--eco-lite); border-color: var(--eco-dark); }
-.li-stk.li-cool:active,.li-stk.li-cool:hover { border-color: var(--smoke); background-color: var(--cool); color: var(--smoke); }
-.li-stk.li-metal:active,.li-stk.li-metal:hover { border-color: var(--smoke); background-color: var(--metal); color: var(--smoke); }
-.li-stk.li-over:active,.li-stk.li-over:hover { background-color: var(--smoke); color: var(--over); border-color: var(--smoke); }
+.li-stk.li-cool:active,.li-stk.li-cool:hover { border-color: var(--rainy); background-color: var(--cool); color: var(--rainy); }
+.li-stk.li-metal:active,.li-stk.li-metal:hover { border-color: var(--rainy); background-color: var(--metal); color: var(--rainy); }
+.li-stk.li-over:active,.li-stk.li-over:hover { background-color: var(--rainy); color: var(--over); border-color: var(--rainy); }
 
 /*******************************************************************************************************/
