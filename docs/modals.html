@@ -27,10 +27,10 @@
 <div class="modal">
     <div class="mx-auto w-75 px-sm py-sm d-flex ai-fs bg-bee-lite txt-over bdr-rad-md">
         <span class="pr-sm material-icons">calendar_today</span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Consectetur neque id harum ea culpa. Amet, eum saepe eveniet
-            pariatur voluptates natus enim alias.Thwe sfdv sdv aasw was 
-            awe af f ef wqfwfqqwf q fqwf fq w ffqw fw for user
+            This piece of code requires your immediate attention or an 
+            action. This is a modal, it can be of any shape or size 
+            based on the importance or urgency of the content to be 
+            displayed on the modal. 
         <span class="close-modal ml-auto rot-c-45 material-icons">add_circle</span>
     </div>
 </div>
@@ -41,6 +41,9 @@
 <header class="header-docs">
     <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
         <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
+            <div class="hide-drs">
+                <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
+            </div>
             <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
         </div>
         <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
@@ -69,21 +72,19 @@
     <p class="px-sm py-sm mx-auto f-w-800"><a class="sidebar-links current" href="../docs/modals.html">Modals</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/navbars.html">Navbars</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/ratings.html">Ratings</a></p>
-    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Texts</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Typography</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/toasts.html">Toasts</a></p>
 </div>
 </aside>
 <!---------------------------------------------------------------------------------------------------->
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
 <main class="main-docs">
-<div class="pos-abs hide-drs">
-    <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
-</div>
+
 <!-------------------------------------- Modal Controls ------------------------------------------------------>
 
-<div class="pl-xl py-md">
-    <h3>Modals</h3>
-    <p>These are used to show any important immediate information to the user</p>
+<div class="px-sm py-md">
+    <p class="f-2x f-w-600">Modals</p>
+    <p class="f-11x py-sm">A modal is a web page element that displays in front of web page and temporarily and deactivates all other page content. Often used to direct users' attention to an important action or piece of information on a website or application.</p>
 </div>
 
 <div class="px-lg py-lg">
@@ -93,13 +94,16 @@
 <div class="grid">
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
+    <!-- A modal can be of any shape, size, color scheme or orientaion,
+         which can be given via a variety of utility class as shown, given 
+        that it is put inside of the modal class and not randomly anywhere -->
     <div class="modal">
         <div class="mx-auto w-75 px-sm py-sm d-flex ai-fs bg-bee-lite txt-over bdr-rad-md">
             <span class="pr-sm material-icons">calendar_today</span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Consectetur neque id harum ea culpa. Amet, eum saepe eveniet
-                pariatur voluptates natus enim alias.Thwe sfdv sdv aasw was 
-                awe af f ef wqfwfqqwf q fqwf fq w ffqw fw for user
+            This piece of code requires your immediate attention or an 
+            action. This is a modal, it can be of any shape or size 
+            based on the importance or urgency of the content to be 
+            displayed on the modal. 
             <span class="close-modal ml-auto rot-c-45 material-icons">add_circle</span>
         </div>
     </div>
@@ -107,6 +111,7 @@
         <button class="mx-auto btn btn-eco bdr-rad-md open-modal">Open Modal</button>
     </div>
     <script>
+        // javascript code to show or hide the modal on occuring of click events
         const modal = document.querySelector(".modal");
         const openModalBtn = document.querySelector(".open-modal");
         const closeModalBtn = document.querySelector(".close-modal");

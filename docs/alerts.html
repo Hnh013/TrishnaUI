@@ -25,6 +25,9 @@
 <header class="header-docs">
     <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
         <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
+            <div class="hide-drs">
+                <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
+            </div>
             <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
         </div>
         <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
@@ -53,87 +56,93 @@
         <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/modals.html">Modals</a></p>
         <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/navbars.html">Navbars</a></p>
         <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/ratings.html">Ratings</a></p>
-        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Texts</a></p>
+        <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Typography</a></p>
         <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/toasts.html">Toasts</a></p>
     </div>
 </aside>
-<!-----------------
+<!----------------------------------------------------------------------------------------------------->
 <!---------------------------------------------------------------------------------------------------->
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
 <main class="main-docs">
-    <div class="pos-abs hide-drs">
-        <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
-    </div>
 <!-------------------------------------- ALERTS ------------------------------------------------------>
-<div class="pl-xl py-md d-flex fw-wrap">
-    <h3>Alerts</h3>
-    <p>These are alerts to convey any special information like updates, notifications, call or messages to the user </p>
+<div class="px-xs py-md d-flex fd-col fw-wrap gap-1">
+    <p class="px-xs f-2x f-w-600">Alerts</p>
+    <p class="px-xs f-11x">These are used to notify the user of an event that requires his/her attention triggering the alert, 
+        or something that reuires an action by the users, which may be immediate or not depending upon what triggered 
+        the alert in the first place.
+    </p> 
+    <p class="px-xs f-11x">Usually displayed on top or bottom of the screens, they are used for the purpose of capturing the user's attention</p>
+    <p class="px-xs f-11x">Alerts are colored or themed based on what is the urgency of action or event, like yellow and similar colors
+        to warn users of a potential harmful action, red while performing an irreversible action , green for successful completion
+        of a transaction,etc.
+    </p>
 </div>
-
-<div class="px-xs py-xs grid">
+<div class="px-sm py-sm">
+<div class="mx-auto px-xs py-xs grid bg-smoke bdr-rad-md w-75">
     <div class="alert alert-fire bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
-        This is a fire theme alert ! It show potential danger
+        This is a fire theme alert ! It show potential danger.
     </div>
     <div class="py-xs"></div>
     <div class="alert alert-bee bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
-        This is a bee theme alert . It shows potential dangers and warns
+        This is a bee theme alert . It warns about any action user is gonig to partake.
     </div>
     <div class="py-xs"></div>
     <div class="alert alert-sun bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
-        This is a sun theme alert for some specific notifications for user ewrwef Lorem ipsum dolor sit amet.
+        This is a sun theme alert for some specific notifications for user .
     </div>
     <div class="py-xs"></div>
     <div class="alert alert-eco bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
-        This is a eco theme alert ! It show potential danger
+        This is a eco theme alert ! It shows any successful completion of an action or transaction.
     </div>
     <div class="py-xs"></div>
     <div class="alert alert-cool bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
-        This is a cool theme alert . It shows potential dangers and warns Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda obcaecati provident.
+        This is a cool theme alert . It shows some specific notifications that the user may find useful and wants to know .
     </div>
     <div class="py-xs"></div>
     <div class="alert alert-metal bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
-        This is a metal theme alert for some specific notifications for user
+        This is a metal theme alert for some specific notifications for user.
     </div>
     <div class="px-xs py-xs"></div>
     <div class="alert alert-rainy bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
-        This is a rainy theme alert for some specific notifications for user
+        This is a rainy theme alert for some specific notifications for user.
     </div>
     <div class="py-xs"></div>
     <div class="alert alert-over bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
-        This is a overcast theme alert for some specific notifications for user
+        This is a overcast theme alert for some specific notifications for user.
     </div>   
 </div>
-
-<div class="grid">
+</div>
+<div class="grid px-sm py-sm">
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
+    <!-- Use the alert class , followed by the theme name and the border radius (f/lg/md/sm), default border radius is 0 -->
     <div class="alert alert-fire bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
         This is a fire theme alert ! It show potential danger 
     </div>
     <div class="alert alert-bee bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
-        This is a bee theme alert . It shows potential dangers and warns
+        This is a bee theme alert . It warns about any action user is gonig to partake.
     </div>
     <div class="alert alert-sun bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
-        This is a sun theme alert for some specific notifications for user ewrwef Lorem ipsum dolor sit amet.
+        This is a sun theme alert for some specific notifications for user.
     </div>
     <div class="alert alert-eco bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
-        This is a eco theme alert ! It show potential danger
+        This is a eco theme alert ! It shows any successful completion of an action or transaction.
     </div>
     <div class="alert alert-cool bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>
-        This is a cool theme alert . It shows potential dangers and warns Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda obcaecati provident.
+        This is a cool theme alert . It shows some specific notifications that the user may find useful and wants to know .
     </div>
     <div class="alert alert-metal bdr-rad-md">
         <span class="alert-close rot-c-45 material-icons">add_circle</span>

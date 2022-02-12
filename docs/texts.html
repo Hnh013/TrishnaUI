@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-------------------------------------- CSS Styling Files ------------------------------------------------>
 <!------------------------ Components Styling ---------------------->
-<link rel="stylesheet" href="../styles/shared/common.css">
+<link rel="stylesheet" href="../styles/main.css">
 <!------------------------------------------------------------------>
 <!--------------------------------------------------------------------------------------------------------->
 <!--------------------------- Google Material Icons CDN link ---------------------------->
@@ -26,6 +26,9 @@
 <header class="header-docs">
     <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
         <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
+            <div class="hide-drs">
+                <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
+            </div>
             <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
         </div>
         <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
@@ -54,82 +57,193 @@
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/modals.html">Modals</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/navbars.html">Navbars</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/ratings.html">Ratings</a></p>
-    <p class="px-sm py-sm mx-auto f-w-800"><a class="sidebar-links current" href="../docs/texts.html">Texts</a></p>
+    <p class="px-sm py-sm mx-auto f-w-800"><a class="sidebar-links current" href="../docs/texts.html">Typography</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/toasts.html">Toasts</a></p>
 </div>
 </aside>
 <!---------------------------------------------------------------------------------------------------->
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
 <main class="main-docs">
-<div class="pos-abs hide-drs">
-    <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
-</div>
 <!-------------------------------------- Text Utilities ------------------------------------------------------>
-<div class="pl-xl py-md">
-    <h3>Font Family</h3>
+<div class="px-sm py-sm">
+    <p class="f-2x f-w-600">Typography</p>
+    <p class="f-11x py-sm"> Typography includes everything the library offers or has set by default related to the fonts, i.e.,
+        it defines the way the text is formatted on the web page. It directly impacts the  
+        user as he/she writes or reads the text. It defines guidelines, rules and principles related to styles, sizes, etc. related to the text.
+    </p>
 </div>
-<div class="grid bg-eco-lite">
-    <div class="d-flex fd-col fw-wrap">
-    <h4>This is Merriweather Font Family , it has been used for headings</h4>
-    <div>This is Open Sans Font Family , it has been used for noramal text</div>
+
+<div class="px-sm py-sm">
+    <h2>Font Family</h2>
+    <p> Font family governs the style the text appears on the screen, how each and every character would appear.</p>
+    <p>Below are the font families used in the TrishnaUI library.</p>
+</div>
+<div class="px-sm py-sm">
+    <div class="px-md py-md bg-smoke bdr-rad-md">
+    <h2>This is Merriweather Font Family , it has been used for headings</h2>
+    <div>This is Open Sans Font Family , it has been used for normal text</div>
     </div>
 </div>
 
 <div class="px-sm py-sm">
-    <h3>Headings</h3>
+    <h2>Headings</h2>
+    <p>Headings usually represent beginning of a new article or a title or starting of a new section in the text.</p>
 </div>
-<div class="grid bg-bee-lite">
-    <div class="d-flex fd-col fw-wrap">
-    <h1 class="ta-c">This is Heading 1</h1>
-    <h2 class="ta-c">This is Heading 2</h2>
-    <h3 class="ta-c">This is Heading 3</h3>
-    <h4 class="ta-c">This is Heading 4</h4>
-    <h5 class="ta-c">This is Heading 5</h5>
-    <h6 class="ta-c">This is Heading 6</h6>
-</div>
+<div class="px-sm">
+    <div class="px-md py-xs bg-smoke d-flex fd-col gap-1 bdr-rad-md">
+    <h1>This is Heading 1</h1>
+    <h2>This is Heading 2</h2>
+    <h3>This is Heading 3</h3>
+    <h4>This is Heading 4</h4>
+    <h5>This is Heading 5</h5>
+    <h6>This is Heading 6</h6> 
+    </div>
 </div>
 
-<div class="px-sm py-sm">
-    <h3>Text Alignment</h3>
+<div class="grid px-sm">
+    <pre>
+        <code class="language-markup" data-prismjs-copy="Copy">
+        <!-- Use the chosen h tag to write the heading of choice -->
+        <h1>This is Heading 1</h1>
+        <h2>This is Heading 2</h2>
+        <h3>This is Heading 3</h3>
+        <h4>This is Heading 4</h4>
+        <h5>This is Heading 5</h5>
+        <h6>This is Heading 6</h6>
+        </code>
+    </pre>
 </div>
-<div class="grid bg-fire-lite">
-    <div class="d-flex fd-col fw-wrap">
+
+<div class="px-sm py-md">
+    <h2>Text Alignment</h2>
+    <p>Text alignment property defines how the text is aligned, either left, right or center</p>
+</div>
+<div class="px-sm py-xm">
+    <div class="px-md py-sm bg-smoke bdr-rad-md">
         <div class="ta-l">This text is left aligned</div>
         <div class="ta-c">This text is center aligned</div>
         <div class="ta-r">This text is right aligned</div>
     </div>
+</div>
 
-</div>
-<div class="px-sm py-sm">
-    <h3>Text Sizing</h3>
-</div>
-<div class="grid bg-calm w-75">
-    <div class="d-flex fd-col">
-    <div class="ta-c f-2x">2x the size of normal text</div>
-    <div class="ta-c f-3x">3x the size of normal text </div>
-    <div class="ta-c f-4x">4x the size of normal text</div>
-</div>
-</div>
-    
-<div class="grid">
-<pre>
-    <code class="language-markup" data-prismjs-copy="Copy">
-        <h1 class="ta-c">This is Heading 1</h1>
-        <h2 class="ta-c">This is Heading 2</h2>
-        <h3 class="ta-c">This is Heading 3</h3>
-        <h4 class="ta-c">This is Heading 4</h4>
-        <h5 class="ta-c">This is Heading 5</h5>
-        <h6 class="ta-c">This is Heading 6</h6>
-
+<div class="grid px-sm">
+    <pre>
+        <code class="language-markup" data-prismjs-copy="Copy">
+        <!-- Use the ta class to align text follwed by hyphen and alignment code -->
         <div class="ta-l">This text is left aligned</div>
         <div class="ta-c">This text is center aligned</div>
         <div class="ta-r">This text is right aligned</div>
+        </code>
+    </pre>
+</div>
 
-        <div class="ta-c f-2x">2x the size of normal text</div>
-        <div class="ta-c f-3x">3x the size of normal text </div>
-        <div class="ta-c f-4x">4x the size of normal text</div>
-    </code>
-</pre>
+<div class="px-sm py-sm">
+    <h2>Text Sizing</h2>
+    <p>Text size is the size of character or font that appears on the screen. The default font size
+        used is 1rem, that is equivalent to 16px. Besides the default there are many other font sizes available
+        and can be used based on requirements of the user.
+    </p>
+</div>
+<div class="px-sm">
+    <div class="px-md py-xs bg-smoke d-flex fd-col gap-1 bdr-rad-md">
+    <div class="f-11x">1.1x the size of normal text</div>
+    <div class="f-125x">1.25x the size of normal text </div>
+    <div class="f-15x">1.5x the size of normal text</div>
+    <div class="f-2x">2x the size of normal text</div>
+    <div class="f-3x">3x the size of normal text </div>
+    <div class="f-4x">4x the size of normal text</div>
+    </div>
+</div>
+<div class="grid px-sm">
+    <pre>
+        <code class="language-markup" data-prismjs-copy="Copy">
+        <!-- To give a defined size use the class f followed by chosen size class -->
+        <div class="f-11x">1.1x the size of normal text</div>
+        <div class="f-125x">1.25x the size of normal text </div>
+        <div class="f-15x">1.5x the size of normal text</div>
+        <div class="f-2x">2x the size of normal text</div>
+        <div class="f-3x">3x the size of normal text </div>
+        <div class="f-4x">4x the size of normal text</div>
+        </code>
+    </pre>
+</div>
+
+<div class="px-sm py-sm">
+    <h2>Text Coloring</h2>
+    <p>Text can be color-coded to emphasize a specific meaning to it. Red text can be used to signify danger or error, 
+        green for correctness, grey for disabled or unavailable, and so on
+    </p>
+</div>
+<div class="px-sm">
+    <div class="px-md py-xs bg-smoke d-flex fd-col gap-1 bdr-rad-md">
+    <p class="txt-fire">This is some sample text</p>
+    <p class="txt-fire-dark">This is some sample text</p>
+    <p class="txt-fire-lite">This is some sample text</p>
+    <p class="txt-eco">This is some sample text</p>
+    <p class="txt-eco-dark">This is some sample text</p>
+    <p class="txt-eco-lite">This is some sample text</p>
+    <p class="txt-sun">This is some sample text</p>
+    <p class="txt-bee">This is some sample text</p>
+    <p class="txt-bee-lite">This is some sample text</p>
+    <p class="txt-cool">This is some sample text</p>
+    <p class="txt-calm">This is some sample text</p>
+    <p class="txt-metal">This is some sample text</p>
+    <p class="txt-metal-dark">This is some sample text</p>
+    <p class="txt-over">This is some sample text</p>
+    <p class="txt-rainy">This is some sample text</p>
+    </div>
+</div>
+<div class="grid px-sm">
+    <pre>
+        <code class="language-markup" data-prismjs-copy="Copy">
+        <!-- To give a defined color use the class txt followed by chosen color class -->
+        <p class="txt-fire">This is some sample text</p>
+        <p class="txt-fire-dark">This is some sample text</p>
+        <p class="txt-fire-lite">This is some sample text</p>
+        <p class="txt-eco">This is some sample text</p>
+        <p class="txt-eco-dark">This is some sample text</p>
+        <p class="txt-eco-lite">This is some sample text</p>
+        <p class="txt-sun">This is some sample text</p>
+        <p class="txt-bee">This is some sample text</p>
+        <p class="txt-bee-lite">This is some sample text</p>
+        <p class="txt-cool">This is some sample text</p>
+        <p class="txt-calm">This is some sample text</p>
+        <p class="txt-metal">This is some sample text</p>
+        <p class="txt-metal-dark">This is some sample text</p>
+        <p class="txt-over">This is some sample text</p>
+        <p class="txt-rainy">This is some sample text</p>
+        </code>
+    </pre>
+</div>
+
+<div class="px-sm py-sm">
+    <h2>Text Weight / Font Weight / Font Thickness</h2>
+    <p>Text can be given a defined thickness to emphasize a specific meaning to it. More thick fonts can be used to signify importance, 
+        less thick fonts for less emphasis, and so on.
+    </p>
+</div>
+<div class="px-sm">
+    <div class="px-md py-xs bg-smoke d-flex fd-col gap-1 bdr-rad-md">
+    <p class="f-w-300">This is text with 300 font weight</p>
+    <p class="f-w-400">This is text with 400 font weight</p>
+    <p class="f-w-500">This is text with 500 font weight</p>
+    <p class="f-w-600">This is text with 600 font weight</p>
+    <p class="f-w-700">This is text with 700 font weight</p>
+    <p class="f-w-800">This is text with 800 font weight</p>
+    </div>
+</div>
+<div class="grid px-sm">
+    <pre>
+        <code class="language-markup" data-prismjs-copy="Copy">
+        <!-- To give a defined weight use the class f-w followed by chosen weight class -->
+        <p class="f-w-300">This is text with 300 font weight</p>
+        <p class="f-w-400">This is text with 400 font weight</p>
+        <p class="f-w-500">This is text with 500 font weight</p>
+        <p class="f-w-600">This is text with 600 font weight</p>
+        <p class="f-w-700">This is text with 700 font weight</p>
+        <p class="f-w-800">This is text with 800 font weight</p>
+        </code>
+    </pre>
 </div>
 
 <!-------------------------------------------------------------------------------------------------------->

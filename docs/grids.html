@@ -26,6 +26,9 @@
 <header class="header-docs">
     <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
         <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
+            <div class="hide-drs">
+                <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
+            </div>
             <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
         </div>
         <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
@@ -54,70 +57,87 @@
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/modals.html">Modals</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/navbars.html">Navbars</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/ratings.html">Ratings</a></p>
-    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Texts</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Typography</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/toasts.html">Toasts</a></p>
 </div>
 </aside>
 <!---------------------------------------------------------------------------------------------------->
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
 <main class="main-docs">
-<div class="pos-abs hide-drs">
-    <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
-</div>
-    
 <!-------------------------------------- Grids ------------------------------------------------------>
-<div class="pl-lg py-md">
-    <h3>Grids</h3>
+<div class="px-sm py-sm">
+    <p class="f-2x f-w-600">Grids</p>
+    <p class="f-11x py-sm">
+        A grid can be defined as an intersecting set of vertical and horizontal lines. CSS Grid layout separates a page into major sections. Grid property offers a grid-based layout system having rows and columns.
+        Similar to the table, it enables a user to align the elements into rows and columns. We can define columns and rows on the grid by using grid-template-rows and grid-template-columns properties.
+    </p>
 </div>
 
-<div class="grid">
-<div class="px-xs py-xs"> 
+<div class="px-sm py-sm">
+    <h2>Two Column Grid</h2>
+</div>
+<div class="px-sm py-sm bg-smoke w-75 mx-auto">
     <div class="grid g-2-col px-xs">
         <div class="o-5 h-100 d-flex ai-c jc-c bg-bee-lite">One</div>
         <div class="o-5 h-100 d-flex ai-c jc-c bg-bee">Two</div>
     </div>  
-    <div class="py-xs"></div>
+</div>
+
+<div class="px-sm py-sm">
+    <h2>Three Column Grid</h2>
+</div>
+<div class="px-sm py-sm bg-smoke w-75 mx-auto">
     <div class="grid g-3-col px-xs">
         <div class="o-5 h-100 d-flex ai-c jc-c bg-fire-lite">One</div>
         <div class="o-5 h-100 d-flex ai-c jc-c bg-eco-lite">Two</div>
         <div class="o-5 h-100 d-flex ai-c jc-c bg-cool">Three</div>
-    </div>
-    <div class="py-xs"></div>
+    </div> 
+</div>
+
+<div class="px-sm py-sm">
+    <h2>Four Column Grid</h2>
+</div>
+<div class="px-sm py-sm bg-smoke w-75 mx-auto">
     <div class="grid g-4-col px-xs">
         <div class="o-5 h-100 d-flex ai-c jc-c bg-bee">One</div>
         <div class="o-5 h-100 d-flex ai-c jc-c bg-sun">Two</div>
         <div class="o-5 h-100 d-flex ai-c jc-c bg-rainy">Three</div>
         <div class="o-5 h-100 d-flex ai-c jc-c bg-metal">Four</div>
     </div>
-    <div class="py-xs"></div>
+</div>
+
+<div class="px-sm py-sm">
+    <h2>Five Column Grid</h2>
+</div>
+<div class="px-sm py-sm bg-smoke w-75 mx-auto">
     <div class="grid g-5-col px-xs">
         <div class="o-5 h-100 d-flex ai-c jc-c bg-calm">One</div>
         <div class="o-5 h-100 d-flex ai-c jc-c bg-eco">Two</div>
         <div class="o-5 h-100 d-flex ai-c jc-c bg-bee">Three</div>
         <div class="o-5 h-100 d-flex ai-c jc-c bg-sun">Four</div>
         <div class="o-5 h-100 d-flex ai-c jc-c bg-fire">Five</div>
-    </div> 
+    </div>
 </div>
-</div>
+
 <div class="grid">
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
-        <div class="grid g-2-col px-sm">
+        <div class="grid g-2-col px-xs">
             <div class="o-5 d-flex ai-c jc-c bg-bee-lite">One</div>
             <div class="o-5 d-flex ai-c jc-c bg-bee">Two</div>
         </div>  
-        <div class="grid g-3-col px-sm">
+        <div class="grid g-3-col px-xs">
             <div class="o-5 d-flex ai-c jc-c bg-fire-lite">One</div>
             <div class="o-5 d-flex ai-c jc-c bg-eco-lite">Two</div>
             <div class="o-5 d-flex ai-c jc-c bg-cool">Three</div>
         </div>
-        <div class="grid g-4-col px-sm">
+        <div class="grid g-4-col px-xs">
             <div class="o-5 d-flex ai-c jc-c bg-bee">One</div>
             <div class="o-5 d-flex ai-c jc-c bg-sun">Two</div>
             <div class="o-5 d-flex ai-c jc-c bg-rainy">Three</div>
             <div class="o-5 d-flex ai-c jc-c bg-metal">Four</div>
         </div>
-        <div class="grid g-5-col px-sm">
+        <div class="grid g-5-col px-xs">
             <div class="o-5 d-flex ai-c jc-c bg-calm">One</div>
             <div class="o-5 d-flex ai-c jc-c bg-eco">Two</div>
             <div class="o-5 d-flex ai-c jc-c bg-bee">Three</div>

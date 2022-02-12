@@ -26,6 +26,9 @@
 <header class="header-docs">
     <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
         <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
+            <div class="hide-drs">
+                <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
+            </div>
             <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
         </div>
         <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
@@ -54,77 +57,92 @@
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/modals.html">Modals</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/navbars.html">Navbars</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/ratings.html">Ratings</a></p>
-    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Texts</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Typography</a></p>
     <p class="px-sm py-sm mx-auto f-w-800"><a class="sidebar-links current" href="../docs/toasts.html">Toasts</a></p>
 </div>
 </aside>
 <!---------------------------------------------------------------------------------------------------->
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
 <main class="main-docs">
-<div class="pos-abs hide-drs">
-    <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
-</div>
 <!-------------------------------------- Toasts ------------------------------------------------------>
-<div class="pl-xl py-md">
-    <h3>Toasts</h3>
-    <p>Toasts , stacked and normal are used to show immediate action requiring information to the user</p>
+<div class="px-sm py-md">
+    <p class="f-2x f-w-600">Snackbars/Toasts</p>
+    <p class="f-11x py-sm">Usually placed at bottom of the screen, snackbars and toasts provide an immediate notification,
+        that may or may not require an action on the user's end.
+    </p>
+</div>
+
+
+<div class="px-sm py-sm">
+    <h2>Snackbars</h2>
+    <p>Snackbars usually contain a single line of text that tells a feedback of a performed action and may or may not contain any action, other than the one to dismiss the snackbar itself</p>
+</div>
+
+<div class="px-sm py-sm bg-smoke w-75 mx-auto bdr-rad-md">
+    <div class="snackbar txt-rainy">
+        <span class="pr-sm material-icons">email</span>
+            Message was sent successfully
+        <span class="f-2x ml-auto rot-c-45 material-icons">add</span>
+    </div>
+    <div class="py-sm"></div>
+    <div class="snackbar txt-fire">
+        <span class="pr-sm material-icons">email</span>
+            Message sending failed
+        <span class="f-2x ml-auto rot-c-45 material-icons">add</span>
+    </div>
 </div>
 
 <div class="grid">
-<div class="px-sm d-flex fd-col gap-1 py-sm mx-auto">
-    <div class="toast-stk bdr-rad-md bg-over txt-rainy d-flex fw-wrap fd-col">
-        <div class="ml-auto toast-content">
-            <div>
+    <pre>
+        <code class="language-markup" data-prismjs-copy="Copy">
+            <!-- Snackbars can also be created in variety of ways other than 
+                the original snackbar class by use of utility classes, hence 
+                with a display of any chosen format given a chosen color scheme -->
+            <div class="snackbar txt-rainy">
+                <span class="pr-sm material-icons">email</span>
+                    Message was sent successfully
+                <span class="f-2x ml-auto rot-c-45 material-icons">add</span>
+            </div>
+            <div class="py-sm"></div>
+            <div class="snackbar txt-fire">
+                <span class="pr-sm material-icons">email</span>
+                    Message sending failed
+                <span class="f-2x ml-auto rot-c-45 material-icons">add</span>
+            </div>
+        </code>
+    </pre>
+</div>
+
+
+<div class="px-sm py-sm">
+    <h2>Toasts</h2>
+    <p>Primarily used to show system messages, they contain an action to be performed sometimes. But may or may not require an immediate action always.</p>
+</div>
+
+<div class="px-sm py-sm bg-smoke w-75 mx-auto bdr-rad-md">
+    <div class="toast txt-rainy">
+        <div class="flt-rgt material-icons">clear</div> 
                 Incoming Call from Friend
-            </div>
-            <div class="d-flex pt-sm gap-1">
-                <div class="mx-auto px-xs py-xs txt-eco-dark bg-eco-lite d-flex ai-c bdr-rad-sm">
-                    <span class="pr-xs material-icons">call</span>  Pickup
-                </div>
-                <div class="mr-auto px-xs py-xs txt-rainy bg-fire d-flex ai-c bdr-rad-sm">
-                    <span class="pr-xs material-icons">call_end</span> Cancel
-                </div>
-            </div>
+        <div class="toast-actions gap-1">
+            <span class="txt-eco"><span class="pr-xs material-icons">call</span>Pickup</span>
+            <span class="txt-fire"><span class="pr-xs material-icons">call_end</span>Cancel</span>
         </div>
-        <div class="ml-auto material-icons">clear</div> 
     </div>
-    <div class="mx-auto w-75 px-sm py-sm d-flex ai-fs bg-over txt-rainy bdr-rad-md">
-        <span class="pr-sm material-icons">calendar_today</span>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Consectetur neque id harum ea culpa. Amet, eum saepe eveniet
-            pariatur voluptates natus enim alias.Thwe sfdv sdv aasw was 
-            awe af f ef wqfwfqqwf q fqwf fq w ffqw fw for user
-        <span class="close-modal ml-auto rot-c-45 material-icons">add</span>
-    </div>
-</div>
 </div>
 
 <div class="grid">
-<pre>
+    <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
-        <div class="toast-stk bdr-rad-md mx-auto bg-over txt-rainy">
-            <div class="ml-auto toast-content">
-                <div>
+        <!-- Toasts generally contain zero or at most three actions, they can be created
+            with the help of basic toast class or with a whole array of utiliy classes
+            with a display of any chosen format given a chosen color scheme -->
+        <div class="toast txt-rainy">
+            <div class="flt-rgt material-icons">clear</div> 
                     Incoming Call from Friend
-                </div>
-                <div class="d-flex pt-sm gap-1">
-                    <div class="mx-auto px-xs py-xs txt-eco-dark bg-eco-lite d-flex ai-c bdr-rad-sm">
-                        <span class="pr-xs material-icons">call</span>  Pickup
-                    </div>
-                    <div class="mr-auto px-xs py-xs txt-rainy bg-fire d-flex ai-c bdr-rad-sm">
-                        <span class="pr-xs material-icons">call_end</span> Cancel
-                    </div>
-                </div>
+            <div class="toast-actions gap-1">
+                <span class="txt-eco"><span class="pr-xs material-icons">call</span>Pickup</span>
+                <span class="txt-fire"><span class="pr-xs material-icons">call_end</span>Cancel</span>
             </div>
-            <div class="ml-auto material-icons">clear</div> 
-        </div>
-        <div class="mx-auto w-75 px-sm py-sm d-flex ai-fs bg-over txt-rainy bdr-rad-md">
-            <span class="pr-sm material-icons">calendar_today</span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Consectetur neque id harum ea culpa. Amet, eum saepe eveniet
-                pariatur voluptates natus enim alias.Thwe sfdv sdv aasw was 
-                awe af f ef wqfwfqqwf q fqwf fq w ffqw fw for user
-            <span class="close-modal ml-auto rot-c-45 material-icons">add</span>
         </div>
     </code>
 </pre>
