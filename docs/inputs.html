@@ -26,6 +26,9 @@
 <header class="header-docs">
     <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
         <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
+            <div class="hide-drs">
+                <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
+            </div>
             <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
         </div>
         <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
@@ -54,22 +57,27 @@
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/modals.html">Modals</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/navbars.html">Navbars</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/ratings.html">Ratings</a></p>
-    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Texts</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Typography</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/toasts.html">Toasts</a></p>
 </div>
 </aside>
 <!---------------------------------------------------------------------------------------------------->
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
 <main class="main-docs">
-<div class="pos-abs hide-drs">
-    <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
-</div>
 <!-------------------------------------- Images ------------------------------------------------------>
-<div class="pl-xl py-sm">
-    <h3>Inputs</h3>
-    <p>These are elements which capture information form the user </p>
+<div class="px-sm py-sm">
+    <p class="f-2x f-w-600">Inputs</h3>
+    <p class="f-11x py-sm">These are elements that capture any input or information from the user via interaction.
+      They can capture different types of information, from basic textual bio data to user credentials, pins numbers
+      and even colors.
+    </p>
 </div>
 
+<div class="px-sm py-sm">
+  <h2>Radio Buttons</h2>
+  <p>These give the user to select one or more choices based on their desire.</p>
+</div>
+<div class="px-sm py-sm">
 <div class="d-flex fd-col px-sm py-sm jc-c ai-c fw-wrap gap-1">
     <div class="px-xs py-xs w-50">
         <form action="">
@@ -83,6 +91,33 @@
             </label>
           </form>
     </div>
+</div>
+</div>
+
+<div class="grid">
+  <pre>
+      <code class="language-markup" data-prismjs-copy="Copy">
+        <form action="">
+          <label class="form-control">
+            <input type="radio" name="radio" />
+            Radio
+          </label>
+          <label class="form-control">
+            <input type="radio" name="radio" checked />
+            Radio - checked
+          </label>
+        </form>
+      </code>
+  </pre>
+</div>
+
+
+<div class="px-sm py-sm">
+  <h2>Checkboxes</h2>
+  <p>Similar to radio buttons, these also give the user to select one or more choices based on their desire.</p>
+</div>
+<div class="px-sm py-sm">
+<div class="d-flex fd-col px-sm py-sm jc-c ai-c fw-wrap gap-1">
     <div class="px-xs py-xs w-50">
         <form action="">
             <label class="form-control">
@@ -104,23 +139,11 @@
           </form>
     </div>
 </div>
+</div>
 <div class="grid">
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
-    <div class="px-xs py-xs w-50">
-    <form action="">
-        <label class="form-control">
-          <input type="radio" name="radio" />
-          Radio
-        </label>
-        <label class="form-control">
-          <input type="radio" name="radio" checked />
-          Radio - checked
-        </label>
-    </form>
-    </div>
-    <div class="px-xs py-xs w-50">
-    <form action="">
+      <form action="">
         <label class="form-control">
           <input type="checkbox" name="checkbox" />
           Checkbox
@@ -137,38 +160,59 @@
           <input type="checkbox" name="checkbox-disabled-checked" checked disabled />
           Checkbox Disabled - checked
         </label>
-    </form> 
-    </div>
+      </form>
     </code>
 </pre>
 </div>
 
-<div class="d-flex fd-col px-sm py-sm jc-c ai-c fw-wrap gap-1">
-        <input class="ip-cls bdr-rad-sm" type="number" value="9" max="12">
-        <span class="ip-msg success-msg">Correct</span>
-
-        <input class="ip-cls bdr-rad-sm" type="number" value="12" max="10">
-        <span class="ip-msg err-msg">Wrong</span>
-
-        <input class="ip-cls bdr-rad-sm px-xs py-xs" type="number" value="0" max="10" required>
-        
-        <input class="ip-inv" type="number" value="0" max="10" required> 
-        
-        <input class="ip-cls" type="number" value="0" max="10" disabled>
+<div class="px-sm py-sm">
+  <h2>Inputs</h2>
 </div>
+<div class="px-sm py-sm">
+<div class="d-flex fd-col px-sm py-sm jc-c ai-c fw-wrap gap-1 bg-smoke">
+    <!-- an input with success message displayed -->
+    <div>Input with success message</div>
+    <input class="ip-cls bdr-rad-sm" type="number" value="9" max="12">
+    <span class="ip-msg success-msg">Correct</span>
+    <!-- an input with error displayed -->
+    <div>Input with error message</div>  
+    <input class="ip-cls bdr-rad-sm" type="number" value="12" max="10">
+    <span class="ip-msg err-msg">Wrong</span>
+  </div>
+</div>
+<div class="px-sm py-sm">
+  <div class="d-flex fd-col px-sm py-sm jc-c ai-c fw-wrap gap-1 bg-smoke">
+    <!-- an input with required state that turns red when no input value is there -->
+    <div>Input with required attribute added</div>
+    <input class="ip-cls bdr-rad-sm px-xs py-xs" type="number" value="0" max="10" required>
+    <!-- an input with disabled state -->
+    <div>An input in disabled state</div>
+    <input class="ip-cls" type="number" value="0" max="10" disabled>
+  </div>
+</div>
+
+<div class="px-sm py-sm">
+  <div class="d-flex fd-col px-sm py-sm jc-c ai-c fw-wrap gap-1 bg-smoke">
+    <!-- an input with no border -->
+    <div>Input with no border and invisible background added</div>
+    <input class="ip-inv" type="number" value="0" max="10" required> 
+  </div>
+</div>
+
 <div class="grid">
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
+        <!-- an input with success message displayed -->
         <input class="ip-cls bdr-rad-sm" type="number" value="9" max="12">
         <span class="ip-msg success-msg">Correct</span>
-
+        <!-- an input with error displayed -->  
         <input class="ip-cls bdr-rad-sm" type="number" value="12" max="10">
         <span class="ip-msg err-msg">Wrong</span>
-
+        <!-- an input with required state that turns red when no input value is there -->
         <input class="ip-cls bdr-rad-sm px-xs py-xs" type="number" value="0" max="10" required>
-        
+        <!-- an input with no border -->
         <input class="ip-inv" type="number" value="0" max="10" required> 
-        
+        <!-- an input with disabled state -->
         <input class="ip-cls" type="number" value="0" max="10" disabled>
     </code>
 </pre>

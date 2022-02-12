@@ -25,6 +25,9 @@
     <header class="header-docs">
         <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
             <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
+                <div class="hide-drs">
+                    <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
+                </div>
                 <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
             </div>
             <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
@@ -53,17 +56,325 @@
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/modals.html">Modals</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/navbars.html">Navbars</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/ratings.html">Ratings</a></p>
-    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Texts</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Typography</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/toasts.html">Toasts</a></p>
 </div>
 </aside>
 <!---------------------------------------------------------------------------------------------------->
 <!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
 <main class="main-docs">
-    <div class="pos-abs hide-drs">
-        <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
-    </div>
 
+<div class="px-sm py-sm">
+    <p class="f-2x f-w-600">Cards</p>
+    <p class="f-11x py-sm">
+        Cards are a small rectanglular entities associated to a single aspect. Cards can contain elements such as text, links, buttons or images but their main purpose is to convince the ser to click upon them to view more details.
+    </p>
+</div>
+
+<div class="px-sm py-sm">
+    <h2>Image Cards</h2>
+    <p>The are the cards that contain only an image, usually done for advertizing purposes, inducing a curiosity
+        in the mind of the observer
+    </p>
+</div>
+<div class="px-sm py-sm">
+    <h3>Horizontal Image Cards</h3>
+</div>
+<div class="px-xs py-xs d-flex jc-sa fw-wrap gap-1">
+    <div class="card img-crd-h px-xs py-xs pos-rel">
+        <span class="material-icons pos-abs top-rgt-5 txt-over o-07 bg-smoke bdr-rad-f px-xs py-xs card-icon">share</span>
+        <img src="../images/img-wide.jpg" alt="" class="img-square">
+    </div>
+    <div class="card img-crd-h px-xs py-xs pos-rel">
+        <span class="strk-thru py-xs ta-c bg-smoke txt-over o-06 fw-600 f-2x">Sports</span>
+        <img src="../images/img-wide.jpg" alt="" class="img-square">
+    </div>
+</div>
+<div class="grid">
+<pre>
+    <code class="language-markup" data-prismjs-copy="Copy">
+        <div class="card img-crd-h px-xs py-xs pos-rel">
+            <span class="material-icons pos-abs top-rgt-5 txt-over o-07 bg-smoke bdr-rad-f px-xs py-xs card-icon">share</span>
+            <img src="../images/img-wide.jpg" alt="" class="img-square">
+        </div>
+        <div class="card img-crd-h px-xs py-xs pos-rel">
+            <span class="strk-thru py-xs ta-c bg-smoke txt-over o-06 fw-600 f-2x">Sports</span>
+            <img src="../images/img-wide.jpg" alt="" class="img-square">
+        </div>
+    </code>
+</pre>
+</div>
+
+<div class="px-sm py-sm">
+    <h3>Vertical Image Cards</h3>
+</div>
+<div class="px-xs py-xs d-flex jc-sa fw-wrap gap-1">
+    <div class="card img-crd-v px-xs py-xs pos-rel">
+        <span class="material-icons pos-abs top-rgt-5 txt-over o-07 bg-smoke bdr-rad-f px-xs py-xs card-icon">share</span>
+        <img src="../images/img-long.jpg" alt="" class="img-square">
+    </div>
+    <div class="card img-crd-v px-xs py-xs pos-rel">
+        <span class="strk-thru py-xs ta-c bg-smoke txt-over o-06 fw-600 f-2x">Sneakers</span>
+        <img src="../images/img-long.jpg" alt="" class="img-square">
+    </div>
+</div>
+<div class="grid">
+<pre>
+    <code class="language-markup" data-prismjs-copy="Copy">
+    <div class="card img-crd-v px-xs py-xs pos-rel">
+        <span class="material-icons pos-abs top-rgt-5 txt-over o-07 bg-smoke bdr-rad-f px-xs py-xscard-icon">share</span>
+        <img src="../images/img-long.jpg" alt="" class="img-square">
+    </div>
+    <div class="card img-crd-v px-xs py-xs pos-rel">
+        <span class="strk-thru py-xs ta-c bg-smoke txt-over o-06 fw-600 f-2x">Sneakers</span>
+        <img src="../images/img-long.jpg" alt="" class="img-square">
+    </div>
+    </code>
+</pre>
+</div>
+
+<div class="px-sm py-sm">
+    <h2>Image and Content Cards</h2>
+    <p>The are the cards that contain an image, as well as some description or small context of the image, usually done for product marketing or advertizing or story summarizing purposes.
+    </p>
+</div>
+
+<div class="px-sm py-sm">
+    <h3>Horizontal Cards</h3>
+</div>
+<div class="px-sm py-sm">
+    <div class="card h-crd bg-smoke mx-auto pos-rel">
+        <div class="material-icons pos-abs top-rgt-5 txt-over o-07 bg-smoke bdr-rad-f px-xs py-xs card-icon">share</div>
+        <div class="h-crd-hdr pos-rel">
+            <img src="../images/img-long.jpg" alt="" class="img-square">
+        </div>
+        <div class="h-crd-ctnt d-flex px-xs py-xs fd-col jc-sb">
+            <div>
+                <h3 class="f-2x f-w-600 txt-over">New Arrivals</h3>
+                <p class="f-w-600 txt-fire-dark"> Gucci, Chanel, LV and more</p>
+            </div>
+            <div>
+                <p class="f-w-800 txt-metal">Spring/Summer Collection</p>
+                <p class="f-w-600">Choose the hottest apparel this winter , made by the best , for everyone,</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid">
+<pre>
+    <code class="language-markup" data-prismjs-copy="Copy">
+        <div class="card h-crd bg-smoke mx-auto pos-rel">
+            <div class="material-icons pos-abs top-rgt-5 txt-over o-07 bg-smoke bdr-rad-f px-xs py-xs card-icon">share</div>
+            <div class="h-crd-hdr pos-rel">
+                <img src="../images/img-long.jpg" alt="" class="img-square">
+            </div>
+            <div class="h-crd-ctnt d-flex px-xs py-xs fd-col jc-sb">
+                <div>
+                    <h3 class="f-2x f-w-600 txt-over">New Arrivals</h3>
+                    <p class="f-w-600 txt-fire-dark"> Gucci, Chanel, LV and more</p>
+                </div>
+                <div>
+                    <p class="f-w-800 txt-metal">Spring/Summer Collection</p>
+                    <p class="f-w-600">Choose the hottest apparel this winter , made by the best , for everyone,</p>
+                </div>
+            </div>
+        </div>
+    </code>
+</pre>
+</div>
+
+<div class="px-sm py-sm">
+    <h3>Vertical Cards</h3>
+</div>
+<div class="px-sm py-sm">
+    <div class="card v-crd mx-auto">
+        <div class="v-crd-hdr px-xs py-xs pos-rel">
+            <img src="../images/img-long.jpg" alt="" class="img-square">
+            <span class="f-2x pos-abs btm-rgt-5 material-icons bdr-rad-f px-xs py-xs txt-over">add_shopping_cart</span>
+            <span class="f-2x pos-abs top-rgt-5 material-icons bdr-rad-f px-xs py-xs txt-smoke">favorite_border</span>
+        </div>
+        <div class="v-crd-ctnt ta-c">
+            <div class="f-w-600">Men's Sports Shoes</div>
+            <div>
+                <p class="f-2x py-xs f-w-600"> &#8364 2000</p>
+                <p class="px-xs py-xs bg-cool txt-smoke f-w-600 d-flex jc-c ai-c">Add To Cart 
+                    <span class="material-icons">shopping_cart</span></p>
+                <p class="px-xs py-xs bg-sun txt-over d-flex jc-c ai-c">Add To Wishlist
+                    <span class="material-icons">queue</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid">
+<pre>
+    <code class="language-markup" data-prismjs-copy="Copy">
+        <div class="card v-crd mx-auto">
+            <div class="v-crd-hdr px-xs py-xs pos-rel">
+                <img src="../images/img-long.jpg" alt="" class="img-square">
+                <span class="f-2x pos-abs btm-rgt-5 material-icons bdr-rad-f px-xs py-xs txt-over">add_shopping_cart</span>
+                <span class="f-2x pos-abs top-rgt-5 material-icons bdr-rad-f px-xs py-xs txt-smoke">favorite_border</span>
+            </div>
+            <div class="v-crd-ctnt ta-c">
+                <div class="f-w-600">Men's Sports Shoes</div>
+                <div>
+                    <p class="f-2x py-xs f-w-600"> &#8364 2000</p>
+                    <p class="px-xs py-xs bg-cool txt-smoke f-w-600 d-flex jc-c ai-c">Add To Cart 
+                        <span class="material-icons">shopping_cart</span></p>
+                    <p class="px-xs py-xs bg-sun txt-over d-flex jc-c ai-c">Add To Wishlist
+                        <span class="material-icons">queue</span></p>
+                </div>
+            </div>
+        </div>
+    </code>
+</pre>
+</div>
+
+<div class="px-sm py-sm">
+    <h3>Large Cards</h3>
+    <p>Sometimes cards can be of a relatively bigger size to lay more emphasis, or addition of more options or CTA
+        buttons on the cards, increasing their interactivity. Usually donee for product cards on online e-commerce 
+        sites.
+    </p>
+</div>
+<div class="px-sm py-sm">
+    <div class="card lg-crd mx-auto bg-smoke pos-rel">
+        <div class="lg-crd-hdr">
+            <div class="lg-crd-hdr pos-rel">
+            <img src="../images/img-long.jpg" alt="" class="img-square">
+        </div>
+        </div>
+        <div class="lg-crd-ctnt d-flex px-xs py-xs fd-col jc-c">
+            <div class="pos-rel d-flex fd-col">
+                <div>
+                    <p class="f-w-800 f-11x">Men's Premium Shoes <p><em> by Nike Anti Vapor Kits</em></p> </p>
+                </div> 
+                <div>
+                    <p class="f-15x f-w-700 txt-eco">&#8364 2000 <del><span class="pl-xs fw-600 f-125x txt-fire">&#8364 3999</span></del>  </p>
+                    <p class="f-w-800 f-11x txt-metal-dark">50% Off</p>
+                </div> 
+            </div>
+            <div class="pos-rel ta-c pt-sm">
+                <p class="bg-cool txt-smoke px-xs py-xs"> Add To Cart</p>
+                <div class="py-xs"></div>
+                <p class="bg-cool txt-smoke px-xs py-xs"> Save to Wishlist</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid">
+<pre>
+    <code class="language-markup" data-prismjs-copy="Copy">
+        <div class="card lg-crd mx-auto bg-smoke pos-rel">
+            <div class="lg-crd-hdr">
+                <div class="lg-crd-hdr pos-rel">
+                <img src="../images/img-long.jpg" alt="" class="img-square">
+            </div>
+            </div>
+            <div class="lg-crd-ctnt d-flex px-xs py-xs fd-col jc-c">
+                <div class="pos-rel d-flex fd-col">
+                    <div>
+                        <p class="f-w-800 f-11x">Men's Premium Shoes <p><em> by Nike Anti Vapor Kits</em></p> </p>
+                    </div> 
+                    <div>
+                        <p class="f-15x f-w-700 txt-eco">&#8364 2000 <del><span class="pl-xs fw-600 f-125x txt-fire">&#8364 3999</span></del>  </p>
+                        <p class="f-w-800 f-11x txt-metal-dark">50% Off</p>
+                    </div> 
+                </div>
+                <div class="pos-rel ta-c pt-sm">
+                    <p class="bg-cool txt-smoke px-xs py-xs"> Add To Cart</p>
+                    <div class="py-xs"></div>
+                    <p class="bg-cool txt-smoke px-xs py-xs"> Save to Wishlist</p>
+                </div>
+            </div>
+        </div>
+    </code>
+</pre>
+</div>
+
+
+
+<div class="px-sm py-sm">
+    <h3>Extra Large Cards</h3>
+    <p>Some cards can be allowed to take full width of the screen, for displaying the options available with them. 
+        While doing a checkout on an e-commerce site such large cards taking width of whole screencan be seen.
+    </p>
+</div>
+<div class="px-sm py-sm d-flex gap-1 fw-wrap">
+    <div class="card xl-crd mx-auto bg-smoke pos-rel">
+        <div class="xl-crd-hdr pos-rel">
+            <img src="../images/img-long.jpg" alt="" class="img-square">
+        </div>
+        <div class="xl-crd-ctnt px-xs py-xs pos-rel d-flex fd-col gap-1 jc-sb">
+            <div class="d-flex jc-sb fd-col">
+            <div>
+                <p class="f-2x f-w-600">Men's Premium Shoes <p>
+                    <p class="f-125x f-w-500"><em> by Nike Anti Vapor Kits</em></p> 
+                </p>
+            </div> 
+            <div>
+                <p class="f-2x f-w-600 txt-eco"> &#8364 2000 <del><span class="pl-xs f-w-600 f-125x txt-fire">&#8364 3999</span></del>  </p>
+                <p class="f-w-800 f-125x txt-metal-dark">50% Off</p>
+            </div>
+            </div>
+            <div class="d-flex f-125x ai-c fw-700">
+                <div class=" txt-over px-xs">Quantity</div>
+                <div class="material-icons">add_circle</div>
+                <div class="px-xs" >23</div>
+                <div class="material-icons">remove_circle</div>
+            </div>
+        </div>
+        <div class="xl-crd-othr d-flex fd-col jc-c px-xs py-xs ta-c">
+                <div class="px-sm py-sm bg-cool txt-smoke px-xs py-xs"> Add To Cart</div>
+                <div class="py-xs"></div>
+                <div class="px-sm py-sm bg-cool txt-smoke px-xs py-xs"> Save to Wishlist</div>
+        </div>
+    </div>
+</div>
+<div class="grid">
+<pre>
+    <code class="language-markup" data-prismjs-copy="Copy">
+        <div class="card xl-crd mx-auto bg-smoke pos-rel">
+            <div class="xl-crd-hdr pos-rel">
+                <img src="../images/img-long.jpg" alt="" class="img-square">
+            </div>
+            <div class="xl-crd-ctnt px-xs py-xs pos-rel d-flex fd-col gap-1 jc-sb">
+                <div class="d-flex jc-sb fd-col">
+                <div>
+                    <p class="f-2x f-w-600">Men's Premium Shoes <p>
+                        <p class="f-125x f-w-500"><em> by Nike Anti Vapor Kits</em></p> 
+                    </p>
+                </div> 
+                <div>
+                    <p class="f-2x f-w-600 txt-eco"> &#8364 2000 <del><span class="pl-xs f-w-600 f-125x txt-fire">&#8364 3999</span></del>  </p>
+                    <p class="f-w-800 f-125x txt-metal-dark">50% Off</p>
+                </div>
+                </div>
+                <div class="d-flex f-125x ai-c fw-700">
+                    <div class=" txt-over px-xs">Quantity</div>
+                    <div class="material-icons">add_circle</div>
+                    <div class="px-xs" >23</div>
+                    <div class="material-icons">remove_circle</div>
+                </div>
+            </div>
+            <div class="xl-crd-othr d-flex fd-col jc-c px-xs py-xs ta-c">
+                <div class="px-sm py-sm bg-cool txt-smoke px-xs py-xs"> Add To Cart</div>
+                <div class="py-xs"></div>
+                <div class="px-sm py-sm bg-cool txt-smoke px-xs py-xs"> Save to Wishlist</div>
+            </div>
+        </div>
+    </code>
+</pre>
+</div>
+    
+<div class="px-sm py-sm">
+    <h2>Round Cards</h2>
+    <p>These are cards that have edges curved with a specific value of border radius.
+        Serve a similar purpose to the other cards</p>
+</div>
+
+<div class="px-sm py-sm">
+    <h3>Text Only Cards</h3>
+</div>
 <div class="px-xl py-md">
     <div class="card mx-auto bdr-rad-md">
         <div class="px-sm pt-xs d-flex fd-col">
@@ -105,7 +416,10 @@
     </code>
 </pre>
 </div>
-        
+
+<div class="px-sm py-sm">
+    <h3>Card with header image and content</h3>
+</div>
 <div class="px-sm py-sm">
     <div class="card mx-auto bdr-rad-md">
         <img src="../images/venice.jpg">
@@ -145,6 +459,9 @@
 </pre>
 </div>
 
+<div class="px-sm py-sm">
+    <h3>Card with header on top of image</h3>
+</div>
 <div class="px-sm py-sm">
     <div class="card mx-auto bdr-rad-md">
         <div class="px-sm py-sm d-flex fd-col">
@@ -187,6 +504,9 @@
 </pre>
 </div>
 
+<div class="px-sm py-sm">
+    <h3>Card with dismiss/close button</h3>
+</div>
 <div class="px-sm py-sm">
     <div class="card mx-auto bdr-rad-md pos-rel">
         <span class="pos-abs top-rgt-5 txt-smoke rot-c-45">
@@ -235,6 +555,9 @@
 </div>
 
 <div class="px-sm py-sm">
+    <h3>Small horizontal card with image and minimum content</h3>
+</div>
+<div class="px-sm py-sm">
     <div class="card mx-auto bdr-rad-md d-flex fd-row fw-wrap">
         <img class="hw-33" src="../images/venice.jpg">
         <div class="px-sm py-sm d-flex fd-col">
@@ -266,6 +589,9 @@
 </pre>
 </div>
 
+<div class="px-sm py-sm">
+    <h3>Card with text overlay</h3>
+</div>
 <div class="px-sm py-sm">
     <div class="card mx-auto bdr-rad-md">
         <div class="d-flex fd-col pos-rel">
@@ -312,6 +638,9 @@
 </pre>
 </div>
 
+<div class="px-sm py-sm">
+    <h3>Card with badge</h3>
+</div>
 <div class="px-sm py-sm">
     <div class="card mx-auto bdr-rad-md pos-rel">
         <img src="../images/venice.jpg">
