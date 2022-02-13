@@ -40,7 +40,7 @@
     width: min(90%, 18rem);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: min-content auto;
+    grid-template-rows: auto min-content;
 }
 
 .v-crd-hdr { grid-column: 1/2; grid-row: 1/2; }
