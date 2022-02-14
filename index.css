@@ -1,8 +1,4 @@
-@import url('./styles/components/navbars.css');
-@import url('./styles/components/cards.css');
-@import url('./styles/shared/common.css');
-@import url('./styles/components/buttons.css');
-@import url('./styles/components/grids.css');
+@import url('./styles/main.css');
 
 /**********************************************************************************************************************/
 /*********************************************** Landing Page Styles ***************************************************/
