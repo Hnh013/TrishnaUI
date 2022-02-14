@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-------------------------------------- CSS Styling Files ------------------------------------------------>
 <!------------------------ Components Styling ---------------------->
-<link rel="stylesheet" href="../styles/components/cards.css">
+<link rel="stylesheet" href="../styles/main.css">
 <!------------------------------------------------------------------>
 <!--------------------------------------------------------------------------------------------------------->
 <!--------------------------- Google Material Icons CDN link ---------------------------->
@@ -108,7 +108,7 @@
 <div class="px-sm py-sm">
     <h3>Vertical Image Cards</h3>
 </div>
-<div class="px-xs py-xs d-flex jc-sa fw-wrap gap-1">
+<div class="px-xs py-xs d-flex jc-sa fw-wrap">
     <div class="card img-crd-v px-xs py-xs pos-rel">
         <span class="material-icons pos-abs top-rgt-5 txt-over o-07 bg-smoke bdr-rad-f px-xs py-xs card-icon">share</span>
         <img src="../images/img-long.jpg" alt="" class="img-square">
@@ -186,7 +186,24 @@
 <div class="px-sm py-sm">
     <h3>Vertical Cards</h3>
 </div>
-<div class="px-sm py-sm">
+<div class="px-sm py-sm d-flex fw-wrap">
+    <div class="card v-crd mx-auto">
+        <div class="v-crd-hdr px-xs py-xs pos-rel">
+            <img src="../images/img-long.jpg" alt="" class="img-square">
+            <span class="f-2x pos-abs btm-rgt-5 material-icons bdr-rad-f px-xs py-xs txt-over">add_shopping_cart</span>
+            <span class="f-2x pos-abs top-rgt-5 material-icons bdr-rad-f px-xs py-xs txt-smoke">favorite_border</span>
+        </div>
+        <div class="v-crd-ctnt ta-c">
+            <div class="f-w-600">Men's Sports Shoes</div>
+            <div>
+                <p class="f-2x py-xs f-w-600"> &#8364 2000</p>
+                <p class="px-xs py-xs bg-cool txt-smoke f-w-600 d-flex jc-c ai-c">Add To Cart 
+                    <span class="material-icons">shopping_cart</span></p>
+                <p class="px-xs py-xs bg-sun txt-over d-flex jc-c ai-c">Add To Wishlist
+                    <span class="material-icons">queue</span></p>
+            </div>
+        </div>
+    </div>
     <div class="card v-crd mx-auto">
         <div class="v-crd-hdr px-xs py-xs pos-rel">
             <img src="../images/img-long.jpg" alt="" class="img-square">
@@ -236,7 +253,30 @@
         sites.
     </p>
 </div>
-<div class="px-sm py-sm">
+<div class="px-sm py-sm d-flex fw-wrap">
+    <div class="card lg-crd mx-auto bg-smoke pos-rel">
+        <div class="lg-crd-hdr">
+            <div class="lg-crd-hdr pos-rel">
+            <img src="../images/img-long.jpg" alt="" class="img-square">
+        </div>
+        </div>
+        <div class="lg-crd-ctnt d-flex px-xs py-xs fd-col jc-c">
+            <div class="pos-rel d-flex fd-col">
+                <div>
+                    <p class="f-w-800 f-11x">Men's Premium Shoes <p><em> by Nike Anti Vapor Kits</em></p> </p>
+                </div> 
+                <div>
+                    <p class="f-15x f-w-700 txt-eco">&#8364 2000 <del><span class="pl-xs fw-600 f-125x txt-fire">&#8364 3999</span></del>  </p>
+                    <p class="f-w-800 f-11x txt-metal-dark">50% Off</p>
+                </div> 
+            </div>
+            <div class="pos-rel ta-c pt-sm">
+                <p class="bg-cool txt-smoke px-xs py-xs"> Add To Cart</p>
+                <div class="py-xs"></div>
+                <p class="bg-cool txt-smoke px-xs py-xs"> Save to Wishlist</p>
+            </div>
+        </div>
+    </div>
     <div class="card lg-crd mx-auto bg-smoke pos-rel">
         <div class="lg-crd-hdr">
             <div class="lg-crd-hdr pos-rel">
@@ -307,13 +347,11 @@
         <div class="xl-crd-ctnt px-xs py-xs pos-rel d-flex fd-col gap-1 jc-sb">
             <div class="d-flex jc-sb fd-col">
             <div>
-                <p class="f-2x f-w-600">Men's Premium Shoes <p>
-                    <p class="f-125x f-w-500"><em> by Nike Anti Vapor Kits</em></p> 
-                </p>
+                <p class="f-w-800 f-11x">Men's Premium Shoes <p><em> by Nike Anti Vapor Kits</em></p> </p>
             </div> 
             <div>
-                <p class="f-2x f-w-600 txt-eco"> &#8364 2000 <del><span class="pl-xs f-w-600 f-125x txt-fire">&#8364 3999</span></del>  </p>
-                <p class="f-w-800 f-125x txt-metal-dark">50% Off</p>
+                <p class="f-15x f-w-700 txt-eco">&#8364 2000 <del><span class="pl-xs fw-600 f-125x txt-fire">&#8364 3999</span></del>  </p>
+                <p class="f-w-800 f-11x txt-metal-dark">50% Off</p>
             </div>
             </div>
             <div class="d-flex f-125x ai-c fw-700">
@@ -324,9 +362,36 @@
             </div>
         </div>
         <div class="xl-crd-othr d-flex fd-col jc-c px-xs py-xs ta-c">
-                <div class="px-sm py-sm bg-cool txt-smoke px-xs py-xs"> Add To Cart</div>
+                <p class="bg-cool txt-smoke px-xs py-xs"> Add To Cart</p>
                 <div class="py-xs"></div>
-                <div class="px-sm py-sm bg-cool txt-smoke px-xs py-xs"> Save to Wishlist</div>
+                <p class="bg-cool txt-smoke px-xs py-xs"> Save to Wishlist</p>
+        </div>
+    </div>
+    <div class="card xl-crd mx-auto bg-smoke pos-rel">
+        <div class="xl-crd-hdr pos-rel">
+            <img src="../images/img-long.jpg" alt="" class="img-square">
+        </div>
+        <div class="xl-crd-ctnt px-xs py-xs pos-rel d-flex fd-col gap-1 jc-sb">
+            <div class="d-flex jc-sb fd-col">
+            <div>
+                <p class="f-w-800 f-11x">Men's Premium Shoes <p><em> by Nike Anti Vapor Kits</em></p> </p>
+            </div> 
+            <div>
+                <p class="f-15x f-w-700 txt-eco">&#8364 2000 <del><span class="pl-xs fw-600 f-125x txt-fire">&#8364 3999</span></del>  </p>
+                <p class="f-w-800 f-11x txt-metal-dark">50% Off</p>
+            </div>
+            </div>
+            <div class="d-flex f-125x ai-c fw-700">
+                <div class=" txt-over px-xs">Quantity</div>
+                <div class="material-icons">add_circle</div>
+                <div class="px-xs" >23</div>
+                <div class="material-icons">remove_circle</div>
+            </div>
+        </div>
+        <div class="xl-crd-othr d-flex fd-col jc-c px-xs py-xs ta-c">
+                <p class="bg-cool txt-smoke px-xs py-xs"> Add To Cart</p>
+                <div class="py-xs"></div>
+                <p class="bg-cool txt-smoke px-xs py-xs"> Save to Wishlist</p>
         </div>
     </div>
 </div>
