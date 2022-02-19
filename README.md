@@ -99,8 +99,8 @@ Put the link inside <head> tag to get started!
 
 ## 10. Local setup and running in local<a name="local-setup-and-running-in-local"></a>
 
-* The app is made in HTML , vanilla CSS and vanilla JS so there is no need to install the dependencies
-Pre-requisites : A code editor
+* The app is made in HTML , vanilla CSS and vanilla JS so there is no need to install the dependencies    
+Pre-requisites : A code editor    
 Steps to run the app at your local machine
 
 1. Run the command on CLI/command prompt to clone the repo on your local machine in the directory of your choice
