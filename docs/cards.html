@@ -49,6 +49,8 @@
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/badges.html">Badges</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/buttons.html">Buttons</a></p>
     <p class="px-sm py-sm mx-auto f-w-800"><a class="sidebar-links current" href="../docs/cards.html">Cards</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/colors.html">Colors</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/flexbox.html">FlexBox</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/grids.html">Grids</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/images.html">Images</a></p>
     <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/inputs.html">Inputs</a></p>
@@ -573,9 +575,9 @@
     <h3>Card with dismiss/close button</h3>
 </div>
 <div class="px-sm py-sm">
-    <div class="card mx-auto bdr-rad-md pos-rel">
-        <span class="pos-abs top-rgt-5 txt-smoke rot-c-45">
-            <span class="f-2x material-icons">add_circle</span> 
+    <div class="card card-dismiss mx-auto bdr-rad-md pos-rel">
+        <span class="pos-abs top-rgt-5 txt-smoke rot-c-45" onClick="dismissCard(event)">
+            <span class="f-2x material-icons" >add_circle</span> 
         </span>
         <img src="../images/venice.jpg">
         <div class="px-sm py-sm d-flex fd-col">
@@ -596,8 +598,8 @@
 <pre>
     <code class="language-markup" data-prismjs-copy="Copy">
     <div class="px-sm py-sm">
-        <div class="card mx-auto bdr-rad-md pos-rel">
-            <span class="pos-abs top-rgt-5 f-2x txt-smoke rot-c-45"> 
+        <div class="card card-dismiss mx-auto bdr-rad-md pos-rel">
+            <span class="pos-abs top-rgt-5 f-2x txt-smoke rot-c-45" onClick="dismissCard(event)"> 
                 <span class="f-2x material-icons">add_circle</span> 
             </span>
             <img src="../images/venice.jpg">
@@ -615,6 +617,10 @@
             </div>
         </div>
     </div>
+    <script>
+        // Javascript code to remove the card 
+        const dismissCard = (e) => e.target.parentElement.parentElement.remove();
+    </script>
     </code>
 </pre>
 </div>

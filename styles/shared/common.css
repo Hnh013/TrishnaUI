@@ -8,7 +8,7 @@
 /******************************** Common Styles for background and font/text color *************************************/
 .bg-fire { background-color: var(--fire); }
 .bg-fire-lite { background-color: var(--fire-lite); }
-.bg-fire-dark { color: var(--fire-dark); }
+.bg-fire-dark { background-color: var(--fire-dark); }
 .bg-eco { background-color: var(--eco); }
 .bg-eco-lite { background-color: var(--eco-lite); }
 .bg-eco-dark { background-color: var(--eco-dark); }
