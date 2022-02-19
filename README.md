@@ -1,6 +1,8 @@
 # TrishnaUI<a name="top"></a>
 
-#### Live Project Link : https://trishna-ui-git-development-hnh013.vercel.app/
+#### Live Project Link
+#### Vercel : https://trishna-ui-git-development-hnh013.vercel.app/
+#### Netlify : https://gracious-dijkstra-896584.netlify.app
 #### Live CDN Link : https://trishna-ui-git-development-hnh013.vercel.app/styles/main.css
 
 ## Contents
@@ -73,7 +75,9 @@ components with a wide variety of utility classes made available by the library.
 
 ## 8. Demo<a name="demo"></a>
 
-#### The project is live at : https://trishna-ui-git-development-hnh013.vercel.app/
+#### Live Project Link
+#### Vercel : https://trishna-ui-git-development-hnh013.vercel.app/
+#### Netlify : https://gracious-dijkstra-896584.netlify.app
 
 Following are some snapshots of the project 
 
