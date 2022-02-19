@@ -6,14 +6,14 @@
 ## Contents
 
 1. **[Project Title & description](#trishnaUI)**
-2. **[Purpose of Project](#purpose-of-the-project)**
+2. **[Purpose of the project](#purpose-of-the-project)**
 3. **[Technologies Used](#technologies-used)**
 4. **[Motivations behind the project](#motivations-behind-the-project)**
 5. **[Problems solved by the project](#problems-solved-by-the-project)**
-6. **[Learning from the Project](#learning-from-the-project)** 
+6. **[Learning from the project](#learning-from-the-project)** 
 7. **[Challenges and future iterations](#challenges-and-future-iterations)**
-8. **[Usage & Installation]("#usage")**
-9. **[Local Setup & running in Local]("#local")**
+8. **[Usage & Installation]("#usage-and-installation")**
+9. **[Local Setup and running in Local]("#local-setup-and-running-in-local")**
 
 ## 1. TrishnaUI<a name="trishnaUI"></a>
 * TrishnaUI is a component Library that gives the devlopers to build websites for the internet by using pre-made components, so that they can build faster and efficiently. 
@@ -70,7 +70,7 @@ components with a wide variety of utility classes made available by the library.
 * Customizaiton is still being planned so as to give developers the chance to being able to add their custom styles or modify existing ones to serve their needs.
 * Increasing the number of components available in the library is a top priority task out of all.
 
-## 8. Usage & Installation<a name="usage"></a>
+## 8. Usage and Installation<a name="usage-and-installation"></a>
 * To use the library no installation is required. People just need to copy the link of CDn in the head tag of their HTML files.
 
 ```
@@ -81,7 +81,7 @@ Put the link inside <head> tag to get started!
 ```
 
 
-## 9. Local setup and running in local<a name="local"></a>
+## 9. Local setup and running in local<a name="local-setup-and-running-in-local"></a>
 
 * The app is made in HTML , vanilla CSS and vanilla JS so there is no need to install the dependencies
 Pre-requisites : A code editor
