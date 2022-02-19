@@ -1,4 +1,4 @@
-# TrishnaUI
+# TrishnaUI<a name="top"></a>
 
 #### Live Project Link : https://trishna-ui-git-development-hnh013.vercel.app/
 #### Live CDN Link : https://trishna-ui-git-development-hnh013.vercel.app/styles/main.css
@@ -12,13 +12,15 @@
 5. **[Problems solved by the project](#problems-solved-by-the-project)**
 6. **[Learning from the Project](#learning-from-the-project)** 
 7. **[Challenges and future iterations](#challenges-and-future-iterations)**
+8. **[Usage & Installation]("#usage")**
+9. **[Local Setup & running in Local]("#local")**
 
 ## 1. TrishnaUI<a name="trishnaUI"></a>
 * TrishnaUI is a component Library that gives the devlopers to build websites for the internet by using pre-made components, so that they can build faster and efficiently. 
 * The library offers a good number of such components with a large variety of components available as per the needs of the developer, theme or the type of website. 
 * The library's list of componets however is not limited and will be adding more in the upcoming future. 
 
-The current list of components offered by the library are :
+The current list of components and utilities offered by the library are :
   
 1. Alerts
 2. Buttons
@@ -33,6 +35,9 @@ The current list of components offered by the library are :
 11. Navbars
 12. Ratings
 13. Toasts
+14. Flexbox
+15. Colors
+16. Typography
 
 ## 2. Purpose of the project<a name="purpose-of-the-project"></a>
 
@@ -64,3 +69,31 @@ components with a wide variety of utility classes made available by the library.
 * One of the biggest challenges was to have to integrate a large number of colors because of theme feature adn day/night , light/dark mode that modern websites offer to their users, that is still in progress.
 * Customizaiton is still being planned so as to give developers the chance to being able to add their custom styles or modify existing ones to serve their needs.
 * Increasing the number of components available in the library is a top priority task out of all.
+
+## 8. Usage & Installation<a name="usage"></a>
+* To use the library no installation is required. People just need to copy the link of CDn in the head tag of their HTML files.
+
+```
+
+Put the link inside <head> tag to get started!
+<link rel="stylesheet" href="https://trishna-ui-git-development-hnh013.vercel.app/styles/main.css">
+
+```
+
+
+## 9. Local setup and running in local<a name="local"></a>
+
+* The app is made in HTML , vanilla CSS and vanilla JS so there is no need to install the dependencies
+Pre-requisites : A code editor
+Steps to run the app at your local machine
+
+1. Run the command on CLI/command prompt to clone the repo on your local machine in the directory of your choice
+` git clone https://github.com/Hnh013/TrishnaUI.git `
+2. Take the latest pull by typing following command on CLI/command prompt
+` git pull origin development `
+3. Go to the file explorer and simply right click on the index.html file , and click on Open with Chrome. The app will open.
+4. Alternative way is with Visual Studio Code , download the live server extension , and after taking clone and latest pull of the repo , right click on anywhere in index.html and click on run llive server . App will open automatically on default browser.
+
+Also I would love to know about your experience, please send your feedbacks, criticisms and suggestions regarding this app at my mail - najay357@gmail.com
+
+[Back To Top](#top)
