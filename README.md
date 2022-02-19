@@ -13,7 +13,7 @@ Live CDN Link (Vercel) : https://trishna-ui-git-development-hnh013.vercel.app/st
 6. **[Learning from the Project](#learning-from-the-project)** 
 7. **[Challenges and future iterations](#challenges-and-future-iterations)**
 
-## 1. TrishnaUI
+## 1. TrishnaUI<a name="trishnaUI"></a>
 TrishnaUI is a component Library that gives the devlopers to build websites for the internet by using pre-made components, so that they can build faster and 
 efficiently. The library offers a good number of such components with a large variety of components available as per the needs of the developer, theme or the type 
 of website. The library's list of componets however is not limited and will be adding more in the upcoming future. 
@@ -34,11 +34,12 @@ The current list of components offered by the library are :
 * Toasts
 
 
-## 2. Purpose of the project
+## 2. Purpose of the project<a name="purpose-of-the-project"></a>
 
 The application provides developers to use a number of pre made components for web application , by addition of a CDN link, and make them able to customize those
 components with a wide variety of utility classes made available by the library.
-## 3. Technologies Used
+
+## 3. Technologies Used<a name="technologies-used"></a>
 The technologies used (HTML, CSS and vanilla JS) are basic and come with little to no dependencies in form of libraries and imports and hence are can be 
 heavily manipulated or customized to build components as per the wish, with almost every componetn build from scratch. 
 ## 4. Motivations behind the project
