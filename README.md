@@ -72,6 +72,9 @@ components with a wide variety of utility classes made available by the library.
 * Increasing the number of components available in the library is a top priority task out of all.
 
 ## 8. Demo<a name="demo"></a>
+
+#### The project is live at : https://trishna-ui-git-development-hnh013.vercel.app/
+
 Following are some snapshots of the project 
 
 #### Home Page
