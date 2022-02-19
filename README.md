@@ -12,8 +12,8 @@
 5. **[Problems solved by the project](#problems-solved-by-the-project)**
 6. **[Learning from the project](#learning-from-the-project)** 
 7. **[Challenges and future iterations](#challenges-and-future-iterations)**
-8. **[Usage & Installation]("#usage-and-installation")**
-9. **[Local Setup and running in Local]("#local-setup-and-running-in-local")**
+8. **[Usage & Installation](#usage-and-installation)**
+9. **[Local Setup and running in Local](#local-setup-and-running-in-local)**
 
 ## 1. TrishnaUI<a name="trishnaUI"></a>
 * TrishnaUI is a component Library that gives the devlopers to build websites for the internet by using pre-made components, so that they can build faster and efficiently. 
