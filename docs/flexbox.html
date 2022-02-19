@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-------------------------------------- CSS Styling Files ------------------------------------------------>
+<!------------------------ Components Styling ---------------------->
+<link rel="stylesheet" href="../styles/main.css">
+<!------------------------------------------------------------------>
+<!--------------------------------------------------------------------------------------------------------->
+<!--------------------------- Google Material Icons CDN link ---------------------------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!---------------------------------------------------------------------------------------->
+<!------------- Code Snapshots Formatting Styles ------------->    
+    <link rel="stylesheet" href="../utils/prism.css">
+<!------------------------------------------------------------>
+<!--------------------------------------------------------------------------------------------------------->
+    <title>TrishnaUI | Flexbox</title>
+</head>
+<body>
+<div class="grid-container-docs">
+<!------------------------------- HEADER (Navbar) ----------------------------------------------------->
+<header class="header-docs">
+    <nav class="navbar py-xs px-xs d-flex jc-sb ai-c bg-over txt-smoke">
+        <div class="navbar-brand py-xs d-flex jc-c ai-c txt-sun">
+            <div class="hide-drs">
+                <span class="f-2x material-icons txt-metal add-btn hide">add_circle</span>
+            </div>
+            <h2><a href="../index.html">TrishnaUI</a></h2><p class="pl-xs">v1.0</p>
+        </div>
+        <div class="py-xs nav-links d-flex jc-sa ai-c gap-1 f-w-900">
+            <div> <a href="../index.html"  >Home</a> </div>
+            <div> <a href="./docs/alerts.html" class="txt-sun" >Docs</a> </div>
+            <div> <a href="https://github.com/Hnh013/TrishnaUI" >Github</a> </div>
+        </div>
+    </nav> 
+</header>
+<!---------------------------------------------------------------------------------------------------->
+<!----------------------------------- ASIDE (Sidebar) -------------------------- --------------------->
+<aside class="aside-docs bg-smoke">
+<div class="px-sm py-sm pos-rel hide-drs">
+    <span class="px-sm py-sm f-2x pos-abs top-rgt-5 txt-sun material-icons close-btn">clear</span>
+</div>
+<div class="d-flex fd-col ai-c jc-c f-w-600">
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/alerts.html">Alerts</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/avatars.html">Avatars</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/badges.html">Badges</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/buttons.html">Buttons</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/cards.html">Cards</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/colors.html">Colors</a></p>
+    <p class="px-sm py-sm mx-auto f-w-800"><a class="sidebar-links current" href="../docs/flexbox.html">FlexBox</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/grids.html">Grids</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/images.html">Images</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/inputs.html">Inputs</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/lists.html">Lists</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/modals.html">Modals</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/navbars.html">Navbars</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/ratings.html">Ratings</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/texts.html">Typography</a></p>
+    <p class="px-sm py-sm mx-auto"><a class="sidebar-links" href="../docs/toasts.html">Toasts</a></p>
+</div>
+</aside>
+<!---------------------------------------------------------------------------------------------------->
+<!-------------------------------------- MAIN CONTENT AREA ------------------------------------------->
+<main class="main-docs">
+<!-------------------------------------- Flexbox ------------------------------------------------------>
+<div class="px-sm py-sm">
+    <p class="f-2x f-w-600">Colors</p>
+    <p class="f-11x py-sm">
+       Flex box and certain properties have been used as utility classes throughout for providing internal Styling
+       and customization for components throughout. 
+    </p>
+</div>
+<div class="px-sm py-sm">
+    <h2>FlexBox Properties</h2>
+</div>
+<div class="px-sm py-sm mx-auto">
+    <div class="px-sm py-sm f-w-600">Flex Direction : Row (fd-row)</div>
+    <div class="d-flex fd-row mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+    </div>
+    <div class="px-sm py-sm f-w-600">Flex Direction : Column (fd-col)</div>
+    <div class="d-flex fd-col mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+    </div>  
+    <div class="px-sm py-sm f-w-600">Justify content : Space Between (jc-sb)</div>
+    <div class="d-flex jc-sb mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-sun"></div>
+        <div class="px-lg py-lg f-w-600 bg-metal"></div>
+        <div class="px-lg py-lg f-w-600 bg-calm"></div>
+    </div>
+    <div class="px-sm py-sm f-w-600">Justify content : Center (jc-c)</div>
+    <div class="d-flex jc-c mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-sun"></div>
+        <div class="px-lg py-lg f-w-600 bg-metal"></div>
+        <div class="px-lg py-lg f-w-600 bg-calm"></div>
+    </div>
+    <div class="px-sm py-sm f-w-600">Justify content : Space Around (jc-sa)</div>
+    <div class="d-flex jc-sa mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-sun"></div>
+        <div class="px-lg py-lg f-w-600 bg-metal"></div>
+        <div class="px-lg py-lg f-w-600 bg-calm"></div>
+    </div>
+    <div class="px-sm py-sm f-w-600">Justify content : Flex Start (jc-fs)</div>
+    <div class="d-flex jc-fs mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-sun"></div>
+        <div class="px-lg py-lg f-w-600 bg-metal"></div>
+        <div class="px-lg py-lg f-w-600 bg-calm"></div>
+    </div>
+    <div class="px-sm py-sm f-w-600">Justify content : Flex End (jc-fe)</div>
+    <div class="d-flex jc-fe mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-sun"></div>
+        <div class="px-lg py-lg f-w-600 bg-metal"></div>
+        <div class="px-lg py-lg f-w-600 bg-calm"></div>
+    </div>
+    <div class="px-sm py-sm f-w-600">Justify content : Space Evenly (jc-se)</div>
+    <div class="d-flex jc-se mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-sun"></div>
+        <div class="px-lg py-lg f-w-600 bg-metal"></div>
+        <div class="px-lg py-lg f-w-600 bg-calm"></div>
+    </div> 
+</div>
+<div class="grid">
+<pre>
+    <code class="language-markup" data-prismjs-copy="Copy">
+    <div class="d-flex fd-row mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+    </div>
+    <div class="d-flex fd-col mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+    </div>  
+    <div class="d-flex jc-sb mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-sun"></div>
+        <div class="px-lg py-lg f-w-600 bg-metal"></div>
+        <div class="px-lg py-lg f-w-600 bg-calm"></div>
+    </div>
+    <div class="d-flex jc-c mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-sun"></div>
+        <div class="px-lg py-lg f-w-600 bg-metal"></div>
+        <div class="px-lg py-lg f-w-600 bg-calm"></div>
+    </div>
+    <div class="d-flex jc-sa mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-sun"></div>
+        <div class="px-lg py-lg f-w-600 bg-metal"></div>
+        <div class="px-lg py-lg f-w-600 bg-calm"></div>
+    </div>
+    <div class="d-flex jc-fs mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-sun"></div>
+        <div class="px-lg py-lg f-w-600 bg-metal"></div>
+        <div class="px-lg py-lg f-w-600 bg-calm"></div>
+    </div>
+    <div class="d-flex jc-fe mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-sun"></div>
+        <div class="px-lg py-lg f-w-600 bg-metal"></div>
+        <div class="px-lg py-lg f-w-600 bg-calm"></div>
+    </div>
+    <div class="d-flex jc-se mx-auto bg-smoke px-sm py-sm">
+        <div class="px-lg py-lg f-w-600 bg-fire-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-bee-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-eco-lite"></div>
+        <div class="px-lg py-lg f-w-600 bg-sun"></div>
+        <div class="px-lg py-lg f-w-600 bg-metal"></div>
+        <div class="px-lg py-lg f-w-600 bg-calm"></div>
+    </div> 
+    </code>
+</pre>
+</div>
+
+<!-------------------------------------------------------------------------------------------------------->
+
+</main>
+    <!---------------------------------------------------------------------------------------------------->
+    <!---------------------------------------- FOOTER AREA ----------------------------------------------->
+    <footer class="footer-docs py-sm px-sm bg-sun txt-sun bg-over d-flex f-2x jc-c gap-1"> 
+        <div class="social-icon"><a href="https://www.facebook.com/harshit.negi.520/"><i class="fa fa-facebook-square"></i></a></div>
+        <div class="social-icon"><a href="https://github.com/Hnh013"><i class="fa fa-github-square"></i></a></div>
+        <div class="social-icon"><a href="https://www.linkedin.com/in/harshit-negi-891bb717a/"><i class="fa fa-linkedin-square"></i></a></div>
+        <div class="social-icon"><a href="https://twitter.com/Harshit24076243"><i class="fa fa-twitter-square"></i></a></div>
+        <div class="social-icon"><a href="https://www.instagram.com/hnh013/"><i class="fa fa-instagram"></i></a></div>
+    </div> 
+</footer>
+    <!---------------------------------------------------------------------------------------------------->
+</div>
+</body>
+<!-------------------------------------- Javascript Files -------------------------------------------------->
+<!----------------  common.js JS file ---------------------------->
+<script src="../js/shared/common.js"></script>
+<!-------------------------------------------------------------------->
+<!--------------- Prism and Preformatter for code snaps -------------->
+<script src="../utils/preFormatter.js"></script>
+<script src="../utils/prism.js"></script>
+
+<!-------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------->
+</html>
